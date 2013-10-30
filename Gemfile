@@ -1,33 +1,10 @@
-require 'yaml'
-env = ENV["RAILS_ENV"] || 'development'
-dbfile = File.expand_path("../config/database.yml", __FILE__)
+source :rubygems
 
-unless File.exists?(dbfile)
-  if ENV['DB']
-    FileUtils.cp "config/database.yml.#{ENV['DB'] || 'postgres'}", 'config/database.yml'
-  else
-    raise "You need to configure config/database.yml first"
-  end
-end
+ruby '1.9.3'
 
-conf = YAML.load(File.read(dbfile))
-environment = conf[env]
-adapter = environment['adapter'] if environment
-raise "You need define an adapter in your database.yml or set your RAILS_ENV variable" if adapter == '' || adapter.nil?
-case adapter
-when 'sqlite3'
-  gem 'sqlite3'
-when 'postgresql'
-  gem 'pg'
-when 'mysql2'
-  gem 'mysql2'
-else
-  raise "Don't know what gem to use for adapter #{adapter}"
-end
-
-source 'https://rubygems.org'
-
+gem 'pg'
 gem 'rails', '~> 3.2.13'
+gem 'thin'
 gem 'require_relative'
 gem 'htmlentities'
 gem 'bluecloth', '~> 2.1'
@@ -48,22 +25,19 @@ gem 'carrierwave'
 gem 'akismet', '~> 1.0'
 gem 'twitter'
 
-# TODO: Replace with jquery
 gem 'prototype-rails', '~> 3.2.1'
 gem 'prototype_legacy_helper', '0.0.0', :git => 'http://github.com/rails/prototype_legacy_helper.git'
 
 gem 'rails_autolink', '~> 1.1.0'
 gem 'dynamic_form', '~> 1.1.4'
 
-gem 'iconv'
-
 group :development, :test do
-  gem 'thin'
   gem 'factory_girl', '~> 4.2.0'
   gem 'webrat'
-  gem 'rspec-rails', '~> 2.14'
+  gem 'rspec-rails', '~> 2.13.1'
   gem 'simplecov', :require => false
   gem 'pry-rails'
+  gem 'sqlite3'
 end
 
 # Install gems from each theme
