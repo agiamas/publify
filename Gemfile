@@ -26,7 +26,7 @@ gem 'akismet', '~> 1.0'
 gem 'twitter'
 
 gem 'prototype-rails', '~> 3.2.1'
-gem 'prototype_legacy_helper', '0.0.0', :git => 'http://github.com/rails/prototype_legacy_helper.git'
+# gem 'prototype_legacy_helper', '0.0.0', :git => 'http://github.com/rails/prototype_legacy_helper.git'
 
 gem 'rails_autolink', '~> 1.1.0'
 gem 'dynamic_form', '~> 1.1.4'
