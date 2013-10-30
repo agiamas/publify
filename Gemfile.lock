@@ -1,3 +1,9 @@
+GIT
+  remote: http://github.com/rails/prototype_legacy_helper.git
+  revision: a2cd95c3e3c1a4f7a9566efdab5ce59c886cb05f
+  specs:
+    prototype_legacy_helper (0.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,6 +203,7 @@ DEPENDENCIES
   mini_magick (~> 3.6.0)
   pg
   prototype-rails (~> 3.2.1)
+  prototype_legacy_helper (= 0.0.0)!
   pry-rails
   rails (~> 3.2.13)
   rails_autolink (~> 1.1.0)
