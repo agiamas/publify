@@ -40,6 +40,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'bootstrap-wysihtml5-rails'
+
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|
   eval(IO.read(gemfile), binding)
