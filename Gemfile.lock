@@ -42,6 +42,8 @@ GEM
     akismet (1.0.0)
     arel (3.0.2)
     bluecloth (2.2.0)
+    bootstrap-wysihtml5-rails (0.3.1.23)
+      railties (>= 3.0)
     builder (3.0.4)
     carrierwave (0.9.0)
       activemodel (>= 3.2.0)
@@ -192,6 +194,7 @@ DEPENDENCIES
   addressable (~> 2.1)
   akismet (~> 1.0)
   bluecloth (~> 2.1)
+  bootstrap-wysihtml5-rails
   carrierwave
   coderay (~> 1.0.8)
   dynamic_form (~> 1.1.4)
