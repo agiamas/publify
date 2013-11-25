@@ -500,3 +500,14 @@ strong a:hover{
 #interest_registered {
     font-size: 14px;
 }
+
+
+#wysihtml5-toolbar {
+    font-size: 20px;
+}
+
+#data-wysihtml5-command {
+    border: 3px;
+    border-color: black;
+    font-size: 20px;
+}
