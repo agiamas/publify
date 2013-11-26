@@ -1,3 +1,33 @@
+/*START Copy from style.scss of careacross*/
+
+header{width:100%;}
+header .headerTop{overflow:hidden;background-color:#FFF;padding:0px 0px 10px 0px;}
+header .headerTop a.mainLogo{float:left;display:block;width:109px;height:44px;margin:5px 0px 0px 20px;}
+header .headerTop .loginContainer{float:right;list-style:none;margin:10px 20px 0px 0px;padding:0;}
+header .headerTop .loginContainer a{display:block;text-decoration:none;
+	border: 1px none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+	font-size: 12px;
+	padding: 8px 7px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #006DCC;
+    background-image: 	linear-gradient(to bottom, #0088CC,#0044CC);
+    background-repeat: repeat-x;
+}
+header .headerBottom{width:100%;overflow:hidden;margin:0;padding:0;list-style:none;text-align:center;background-color:#00A8B4;}
+header .headerBottom li{display:inline;}
+header .headerBottom a{font-size:14px;color:#E0E0E0;text-decoration:none;padding:8px 72px;display:inline-block;}
+header .headerBottom a:hover{color:#FFF;}
+/*END Copy from style.scss of careacross*/
+
+/*START Custom Overwrites*/
+body{background-image:none !important;background-color:transparent !important;}
+#external #main{box-shadow:none;margin-top:0;padding:0;}
+#external #main  .navbar.navbar-inverse{display:none;}
+/*END Custom Overwrites*/
+
+
 body {
   background: #ccc url("../../images/theme/background.gif");
   height:100%;
