@@ -1,19 +1,41 @@
-source "https://rubygems.org"
+require 'yaml'
+env = ENV["RAILS_ENV"] || 'development'
+dbfile = File.expand_path("../config/database.yml", __FILE__)
 
-ruby '1.9.3'
+unless File.exists?(dbfile)
+  if ENV['DB']
+    FileUtils.cp "config/database.yml.#{ENV['DB'] || 'postgres'}", 'config/database.yml'
+  else
+    raise "You need to configure config/database.yml first"
+  end
+end
 
-gem 'pg'
-gem 'rails', '~> 3.2.13'
-gem 'thin'
+conf = YAML.load(File.read(dbfile))
+environment = conf[env]
+adapter = environment['adapter'] if environment
+raise "You need define an adapter in your database.yml or set your RAILS_ENV variable" if adapter == '' || adapter.nil?
+case adapter
+when 'sqlite3'
+  gem 'sqlite3'
+when 'postgresql'
+  gem 'pg'
+when 'mysql2'
+  gem 'mysql2'
+else
+  raise "Don't know what gem to use for adapter #{adapter}"
+end
+
+source 'https://rubygems.org'
+
+gem 'rails', '~> 3.2.14'
 gem 'require_relative'
 gem 'htmlentities'
-gem 'bluecloth', '~> 2.0.7'
+gem 'bluecloth', '2.0.7'
 gem 'coderay', '~> 1.0.8'
 gem 'kaminari'
 gem 'RedCloth', '~> 4.2.8'
 gem 'addressable', '~> 2.1', :require => 'addressable/uri'
-gem 'mini_magick', :git => 'git://github.com/minimagick/minimagick.git', :ref => '6d0f8f953112cce6324a524d76c7e126ee14f392'
-#gem 'mini_magick', '~> 3.6.0', :require => 'mini_magick'
+gem 'mini_magick', '3.5.0', :require => 'mini_magick'
 gem 'uuidtools', '~> 2.1.1'
 gem 'flickraw-cached'
 gem 'rubypants', '~> 0.2.0'
@@ -26,22 +48,33 @@ gem 'carrierwave'
 gem 'akismet', '~> 1.0'
 gem 'twitter'
 
-gem 'prototype-rails', '~> 3.2.1'
-gem 'prototype_legacy_helper', '0.0.0', :git => 'https://github.com/rails/prototype_legacy_helper.git'
+gem "jquery-rails", "~> 3.0.4"
+gem "jquery-ui-rails", "~> 4.0.4"
+
+gem 'bootstrap-sass', '~> 2.3.2.1'
+
+# Growler replacement
+gem "gritter", "~> 1.0.3"
 
 gem 'rails_autolink', '~> 1.1.0'
 gem 'dynamic_form', '~> 1.1.4'
 
-group :development, :test do
-  gem 'factory_girl', '~> 4.2.0'
-  gem 'webrat'
-  gem 'rspec-rails', '~> 2.13.1'
-  gem 'simplecov', :require => false
-  gem 'pry-rails'
-  gem 'sqlite3'
+# gem 'iconv'
+
+group :assets do
+  gem 'sass-rails', " ~> 3.2.6"
+  gem 'coffee-rails', " ~> 3.2.2"
+  gem 'uglifier'
 end
 
-gem 'bootstrap-wysihtml5-rails'
+group :development, :test do
+  gem 'thin'
+  gem 'factory_girl', '~> 4.2.0'
+  gem 'webrat'
+  gem 'rspec-rails', '~> 2.14'
+  gem 'simplecov', :require => false
+  gem 'pry-rails'
+end
 
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|

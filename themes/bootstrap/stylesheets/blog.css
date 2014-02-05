@@ -1,0 +1,11 @@
+/*============================================================== SIDEBAR WIDGETS start ==============================================================*/
+.blog .mainContainer .mainNav{float:right;margin:0px 0px 0px 50px;}
+.blog .mainContainer .mainNav h3.sidebar-title{color: #333333;font-size: 15px;font-weight: bold;margin: 0 0 7px;}
+.blog .mainContainer .mainNav ul{margin:0px 0px 30px 0px;padding:0;list-style:none;}
+.blog .mainContainer .mainNav li{font-size:13px;line-height:13px;border-bottom:1px solid #e7e6e6;}
+.blog .mainContainer .mainNav li:last-child{border:none;}
+.blog .mainContainer .mainNav li a{color:#747474;text-decoration:none;padding:7px 0px 7px 8px;display:block;}
+.blog .mainContainer .mainNav li a:hover , .widget.list li.selected a{background-color:#3c84b9;color:#FFF;}
+.blog .mainContainer .mainNav li a span.icon{display:inline-block;display:inline-block;width:5px;height:8px;background:url("../../images/theme/images.png") no-repeat -6px -83px;margin-right:5px;}
+.blog .mainContainer .mainNav li a:hover span.icon, .widget.list li.selected a span.icon{background-position:-6px -92px;}
+/*============================================================== SIDEBAR WIDGETS end ==============================================================*/
