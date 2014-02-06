@@ -1,0 +1,113 @@
+/*==========================================================================  HOMEPAGE start  ==========================================================================*/
+#homepage .section{position:relative;background-color:#f0f0f0;}
+#homepage .section.banner{width:100%;height:294px;background-color:#559ddf;overflow:hidden;}
+
+#homepage .section.banner .headerImage{width:980px;display:block;height:294px;}
+#homepage .section.banner .siteWidth{position:relative;z-index:2;width:980px;padding:0;}
+
+#homepage .section.banner .textContainer{position:absolute;width:400px;height:250px;position:absolute;top:0;right:0;margin:22px 0;padding:0px 60px 0px 20px;}
+#homepage .section.banner span.icon{display:block;width:313px;height:34px;background:url("../siteImages/images.png") no-repeat -687px 0;margin:40px 0px 10px 0px;}
+#homepage .section.banner  .text{font-size:23px;color:#FFF;line-height:30px;}
+
+#homepage .section.usp .text.mainDesc{font-weight:bold;color:#3d3d3d;font-size:21px;margin:0 auto;text-align:center;width:660px;padding:60px 0px;}
+#homepage .section.usp ul.usps{margin:0;padding:0 0px 62px 0px;overflow:hidden;list-style:none;}
+#homepage .section.usp ul.usps li{float:left;width:280px;}
+#homepage .section.usp ul.usps li.support{margin:0px 50px;}
+#homepage .section.usp ul.usps li h2{margin:0 0 10px 0;color:#3f84b4;font-size:22px;font-weight:bold;}
+#homepage .section.usp h2.title span{display:inline-block;width:35px;height:35px;background:url("../siteImages/images.png") no-repeat -154px 0;position:relative;top:8px;margin-right:10px;}
+#homepage .section.usp ul.usps li.support h2 span{background-position:-190px 0;}
+#homepage .section.usp ul.usps li.community h2 span{background-position:-226px 0;}
+#homepage .section.usp ul.usps li .text{font-size:14px;color:#747474;}
+
+#homepage .section.invitation{background-color:#3f84b4;}
+#homepage .section.invitation .siteWidth{width:660px;margin:0px auto;overflow:hidden;padding:80px 0px;}
+#homepage .section.invitation .invitationDesc{float:left;width:390px;}
+#homepage .section.invitation .invitationDesc h2{font-weight:bold;color:#fffefe;font-size:26px;margin:0px 0px 5px 0px;}
+#homepage .section.invitation .invitationDesc .text{color:#f0f0f0;font-size:15px;}
+#homepage .section.invitation .formContainer{float:right;}
+#homepage .section.invitation .formContainer input.text.style2{display:block;margin-bottom:10px;}
+
+#homepage .section.tools{}
+#homepage .section.tools .siteWidth{overflow:hidden;padding:52px 20px;}
+#homepage .section.tools .descContainer{float:left;width:300px;}
+#homepage .section.tools .descContainer span.logoMedium{display:block;width:107px;height:43px;background:url("../siteImages/images.png") no-repeat -264px 0;margin:0px 0px 10px 0px;}
+#homepage .section.tools .descContainer .text{color: #737373;font-size: 14px;}
+#homepage .section.tools .descContainer .text a{color:#3C84B9;}
+#homepage .section.tools .descContainer .text a:hover{text-decoration:none;}
+#homepage .section.tools .toolsContainer{float:left;width:300px;margin:0px 40px;}
+#homepage .section.tools .libraryContainer{float:left;}
+#homepage .section.tools h2.title{font-size:18px;font-weight:bold;color:#3f84b4;margin:5px 0px 12px 0px;}
+#homepage .section.tools ul.list{margin:0;padding:0;list-style:none;}
+#homepage .section.tools ul.list li{border-bottom:1px dotted #bdbdbd}
+#homepage .section.tools ul.list li:last-child{border-bottom:none;}
+#homepage .section.tools ul.list li a{text-decoration:none;font-size:14px;color:#747474;display:block;padding:8px 0px;}
+#homepage .section.tools ul.list li a:hover{}
+/*==========================================================================  HOMEPAGE end  ==========================================================================*/
+
+
+/*==========================================================================  NEWS start  ==========================================================================*/
+#news{}
+#news ul.articles{margin:0;padding:0px;}
+#news ul.articles li.article{margin:0px 0px 20px 0px;}
+#news ul.articles li.article a.articleLink{text-decoration:none;}
+#news ul.articles li.article h4.title{margin:0px;color:#333;font-size:15px;font-weight:bold;}
+#news ul.articles li.article .desc{font-size:13px;color:#747474;margin:0px 0px 0px 0px;padding:0px 0px 10px 0px;border-bottom:1px solid #e7e6e6;}
+#news ul.articles li.article .articleInfo{}
+#news ul.articles li.article .articleInfo a{text-decoration:none;color:#333;}
+#news ul.articles li.article .articleInfo .author{display:inline;font-size:11px;color:#333;} 
+#news ul.articles li.article .articleInfo .author span.greyText{color:#747474;margin-right:3px;}
+#news ul.articles li.article .articleInfo .author span.sep{width:1px;background-color:#bebebe;height:12px;display:inline-block;position:relative;top:3px;margin:0px 3px 0px 5px;} 
+#news ul.articles li.article .articleInfo .date{display:inline;color:#747474;font-weight:300;font-size:11px;font-style:italic;}
+#news .mainContent .paginationContainer{margin:60px 0px 130px 0;}
+/*==========================================================================  NEWS end  ==========================================================================*/
+
+
+/*==========================================================================  NEWSITEM start  ==========================================================================*/
+#newsItem{}
+#newsItem .mainContent img.mainImage{margin-bottom:38px;}
+#newsItem .mainContent h2.title{margin:0 0 10px 0;padding:0;font-size:15px;line-height:15px;color:#333;font-weight:bold;} 
+#newsItem .mainContent .text{font-size:13px;line-height:18px;color:#747474;border-bottom:1px solid #e7e6e6;padding:0px 0px 20px 0px;}
+#newsItem .mainContent .text ul{list-style:outside;}
+#newsItem .mainContent .text ol{list-style:decimal;}
+#newsItem .mainContent .text a{color:#3c84b9;}
+#newsItem .mainContent .text a:hover{text-decoration:none;}
+#newsItem .mainContent .genericInfo{}
+#newsItem .mainContent .genericInfo a{text-decoration:none;color:#333;}
+#newsItem .mainContent .genericInfo .author{display:inline;font-size:11px;color:#333;} 
+#newsItem .mainContent .genericInfo .author span.greyText{color:#747474;margin-right:3px;}
+#newsItem .mainContent .genericInfo .author span.sep{width:1px;background-color:#bebebe;height:12px;display:inline-block;position:relative;top:3px;margin:0px 3px 0px 5px;} 
+#newsItem .mainContent .genericInfo .date{display:inline;color:#747474;font-weight:300;font-size:11px;font-style:italic;}
+#newsItem .mainContent .socialActions{margin:40px 0px;}
+/*==========================================================================  NEWSITEM end  ==========================================================================*/
+
+
+/*==========================================================================  TOOLS start  ==========================================================================*/
+#tools ul.sections{margin:0;padding:0;list-style:none;}
+#tools ul.sections li.section{margin:0px 0px 14px 0px;padding:0px 0px 14px 0px;border-bottom:1px solid #e7e6e6;}
+#tools ul.sections li.section:last-child{border-bottom:none;}
+#tools ul.sections li.section .title{overflow:hidden;}
+#tools ul.sections li.section .title h3{float:left;width:550px;}
+#tools ul.sections li.section .title a.print{float:right;}
+#tools ul.sections li.section .title h3.sectionTitle{margin:0;padding:0;color:#333;font-size:15px;font-weight:bold;cursor:pointer;}
+#tools ul.sections li.section .title h3.sectionTitle span.icon{display:inline-block;width:22px;height:21px;background:url("../siteImages/images.png") no-repeat -12px -83px;position:relative;top:4px;margin-right:15px;}
+#tools ul.sections ul.questions{margin:20px 0px 0px 0px;list-style:inside;}
+#tools ul.sections li.question{color:#747474;font-size:13px;padding:0px 0px 13px 0px;}
+#tools ul.sections li.question a{color:#747474;}
+#tools ul.sections li.question a:hover{text-decoration:none;}
+#tools ul.sections li.section.selected h3.sectionTitle span.icon{background-position:-35px -83px;}
+
+/*==========================================================================  TOOLS end  ==========================================================================*/
+
+/*==========================================================================  TOOLS LIST start  ==========================================================================*/
+#toolsList{}
+#toolsList .news_content{float:none;margin-left:0;padding:0;color: #747474;font-size: 14px;}
+#toolsList .news_content a{color: #3C84B9 !important;}/*delete important when we fix the style.css*/
+
+/*==========================================================================  TOOLS LIST start  ==========================================================================*/
+/*TEMP FOR NEWSITEM*/
+#tools .newscontent{float:none;margin-left:0;padding:0;color: #747474;font-size: 13px;line-height:18px;}
+#tools .newscontent h4{font-size:15px;line-height:15px;color:#333;font-weight:bold;margin:0px 0px 10px 0px;}
+#tools .newscontent p{margin:0px 0px 10px 0px;}
+#tools .newscontent p a{color: #3C84B9 !important;}
+
+

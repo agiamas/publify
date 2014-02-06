@@ -1,0 +1,231 @@
+/*==========================================================================  HELPERS start  ==========================================================================*/
+html,body{height:100%;}
+html{font-family: 'Open Sans', sans-serif;position:relative;}
+.siteWidth{width:940px;margin:0px auto;padding:0px 20px;}
+.left{float:left;}
+.right{float:right;}
+
+
+
+.page-wrap {min-height: 100%;margin-bottom: -64px; }
+.page-wrap:after {content: "";display: block;}
+.site-footer, .page-wrap:after {height: 64px; }
+.content{position:relative;padding-top:68px;}
+.mainNav{float:left;width:220px;margin-right:50px;}
+.mainContent{float:left;width:670px;}
+
+.headerImageContainer{width:100%;background-color:#559ddf;width:100%;position:relative;}
+.headerImage{height:89px;margin:0px auto;width:980px;display:block;}
+.siteWidth.title{position:relative;top:-60px;}
+h2.pageTitle{margin:0;font-size:26px;color:#FFF;font-weight:bold;}
+.siteWidth.mainContainer{position:relative;top:-8px;overflow:hidden;}
+/*==========================================================================  HELPERS end  ==========================================================================*/
+
+
+/*==========================================================================  HEADER start  ==========================================================================*/
+header{width:100%;background-color:#FFF;top:0;position:fixed;z-index:3;}
+header .siteWidth{overflow:hidden;padding-bottom:14px;position:relative;}
+header a.logo{display:block;margin:10px 0px 0px 0px;width:107px;height:43px;background:url("../../images/theme/images.png") no-repeat -264px 0;float:left;}
+header a.logo h1{text-indent:-9999px;margin:0;}
+header ul.mainMenu{float:right;overflow:hidden;margin:0 81px 0 0;padding:0;list-style:none;}
+header ul.mainMenu li{float:left;margin-right:48px;}
+header ul.mainMenu li:last-child{margin-right:0px;}
+header ul.mainMenu li a{display:block;text-decoration:none;color:#333333;font-size:15px;border-top:4px solid #FFF;padding-top:14px;}
+header ul.mainMenu li a:hover, header ul.mainMenu li.selected a,header .logOut:hover{color:#00a8b4;border-top:4px solid #07b7c3;}
+header .ribbon{width:68px;height:58px;position:absolute;background:url("../../images/theme/images.png") no-repeat -84px 0;top:0;right:0;color:#FFF;text-decoration:none;font-size:11px;line-height:11px;}
+header .ribbon span{position:absolute;top:14px;left:2px;width:60px;text-align:center;}
+header .logOut{text-decoration:none;color:#333333;font-size:15px;border-top:4px solid #FFF;position:absolute;top:0;right:0;padding-top:15px;font-weight:bold;}
+
+/*==========================================================================  HEADER end  ==========================================================================*/
+
+/*==========================================================================  FOOTER start  ==========================================================================*/
+footer{background-color:#3d3d3d;}
+footer .siteWidth{overflow:hidden;background-color:#3d3d3d;}
+footer .siteWidth ul{margin:0;padding:21px 0px;overflow:hidden;list-style:none;}
+footer ul.footerMenu{float:left;}
+footer ul.footerMenu li{float:left;padding:0px 22px 0px 0px;}
+footer ul.footerMenu li a{text-decoration:none;font-size:13px;color:#908a8a;}
+footer ul.footerMenu li a:hover{color:#d2d2d2;}
+footer ul.social{float:right;overflow:hidden;}
+footer ul.social li{float:left;}
+footer ul.social li.footerLabel{text-decoration:none;font-size:13px;color:#908a8a;}
+footer ul.social li a{display:block;background:url("../../images/theme/images.png") no-repeat -0px -38px;}
+footer ul.social li.fb a{width:8px;height:17px;margin-left:20px;}
+footer ul.social li.fb a:hover{background-position:-0px -57px;}
+footer ul.social li.twitter a{width:12px;height:14px;background-position:-11px -38px;margin:2px 25px 0px 28px;}
+footer ul.social li.twitter a:hover{background-position:-11px -57px;}
+footer ul.social li.linkedin a{width:13px;height:12px;background-position:-26px -38px;margin:2px 0 0 0;}
+footer ul.social li.linkedin a:hover{background-position:-26px -57px;}
+footer ul.social li.rss a{width:12px;height:11px;background-position:-43px -38px;margin:3px 0 0 28px;}
+footer ul.social li.rss a:hover{background-position:-43px -57px;}
+/*==========================================================================  FOOTER end  ==========================================================================*/
+
+/*==========================================================================  USER CONTROL start  ==========================================================================*/
+.userControl{opacity: .96;background-color: #07b7c3;position:absolute;top:0;width:100%;z-index:100;display:none;}
+.userControl .siteWidth{width:662px;padding:36px 159px;position:relative;overflow:visible;}
+.userControl h2.title{margin:0;font-weight:bold;color:#fbfbfb;font-size:18px;}
+.userControl .desc{color:#fbfbfb;font-size:13px;margin:10px 0px 30px 0px;}
+.userControl .left{width:295px;border-right:1px solid #6fd3db;margin-right:35px;padding-right:35px;}
+.userControl .left #interest_registered{font-size:13px;color:#FBFBFB;font-style:normal;padding:132px 0px;}
+.userControl .left .button.style1{margin:10px 0px 20px 0px;}
+.userControl .left .smallPrint{color: #fafafa;font-size: 13px;}
+
+.userControl .right{width:270px;padding-left:25px;}
+.userControl .right ul{margin:0;padding:0;list-style:none;}
+.userControl .right .password{margin:8px 0px;}
+.userControl .right li.remember{margin:0px 0px 8px 0px;}
+.userControl .right li.remember input{margin-right:3px;}
+.userControl .right li.remember label{color:#fbfbfb;font-size:14px;cursor:pointer;}
+.userControl .right li.error{padding-bottom: 11px;}
+.userControl .right li.error .message{font-size: 16px;font-weight: bold;color: #FF0000;}
+.userControl .right a.forgot{margin-left:10px;color:#fbfbfb;font-size:12px;}
+.userControl .right a.forgot:hover{text-decoration:none;}
+
+.userControl .ribbon{width:68px;height:58px;position:absolute;background:url("../../images/theme/images.png") no-repeat -84px 0;bottom:-44px;right:0;color:#FFF;text-decoration:none;font-size:11px;line-height:11px;top:auto;}
+.userControl .ribbon span{position:absolute;top:14px;left:2px;width:60px;text-align:center;}
+/*==========================================================================  USER CONTROL end  ==========================================================================*/
+
+/*==========================================================================  INPUTS start  ==========================================================================*/
+
+input.button.style1,a.button.style1{display:inline-block;color: #FFF;font-size: 21px;font-weight: bold;text-decoration:none;background-color: #3f83b3;text-align:center;padding:9px 19px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+border:none;
+}
+
+
+input.button.style2,a.button.style2{display:inline-block;color: #3f83b3;font-size: 21px;font-weight: bold;text-decoration:none;background-color: #fff;text-align:center;padding:9px 19px;border:none;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+-moz-box-shadow: 2px 3px 2px rgba(0,0,0,.21);
+-webkit-box-shadow: 2px 3px 2px rgba(0,0,0,.21);
+box-shadow: 2px 3px 2px rgba(0,0,0,.21);
+}
+
+input.text.style1{color: #747474;font-size: 14px;padding:10px 14px;width:170px;
+border: 3px solid #a7bec0;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: #fbfbfb;
+}
+
+input.text.style2{color:#747474;font-size:15px;padding:10px 14px;width:170px;
+border: 3px solid #efefef;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+border-radius: 7px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+background-color: #fbfbfb;
+}
+
+a.print{background-image:none;color:#444444;font-size:12px;background-color:#e5e5e5;font-weight:normal;line-height:12px;padding:6px 22px 6px 9px;display:inline-block;text-decoration:none;}
+a.print:hover{}
+a.print span.icon{display:inline-block;width:13px;height:13px;background:url("../../images/theme/images.png") no-repeat -59px -83px;position:relative;top:3px;left:10px;}
+
+span.icon.print{}
+span.icon.print span{}
+/*==========================================================================  INPUTS end  ==========================================================================*/
+
+/*==========================================================================  PAGINATION start  ==========================================================================*/
+.paginationContainer{margin:30px 0px;}
+.paginationContainer ul{margin:0;padding:0;list-style:none;text-align:center;}
+.paginationContainer ul li{display:inline;}
+.paginationContainer ul li a{color:#747474;font-size:13px;display:inline-block;padding:6px 8px 8px 8px;text-decoration:none;line-height:13px;}
+.paginationContainer ul li a:hover , .paginationContainer ul li.selected a{background-color:#3c84b9;color:#FFF;}
+.paginationContainer ul li.previous a,.paginationContainer ul li.next a{color:#5d5d5d;}
+.paginationContainer ul li.previous a:hover,.paginationContainer ul li.next a:hover{background-color:transparent;}
+.paginationContainer ul li.previous span, .paginationContainer ul li.next span{display:inline-block;width:5px;height:8px;background:url("../../images/theme/images.png") no-repeat -0 0;}
+.paginationContainer ul li.previous span{background-position:0px -83px;margin-right:3px;}
+.paginationContainer ul li.next span{background-position:-6px -83px;margin-left:3px;}
+/*==========================================================================  PAGINATION end  ==========================================================================*/
+
+
+/*==========================================================================  SOCIAL ACTIONS start  ==========================================================================*/
+.socialActions{background-color:#f5f5f5;padding:22px;}
+.socialActions span{color:#444;font-size:13px;line-height:13px;}
+.socialActions ul.socialLinks{overflow:hidden;display:inline-block;margin:0;padding:0;position:relative;top:5px;}
+.socialActions ul.socialLinks li{float:left;}
+.socialActions ul.socialLinks li.label{text-decoration:none;font-size:13px;color:#908a8a;}
+.socialActions ul.socialLinks li a{display:block;background:url("../../images/theme/images.png") no-repeat -0px -38px;}
+.socialActions ul.socialLinks li.fb a{width:8px;height:17px;margin-left:20px;}
+.socialActions ul.socialLinks li.fb a:hover{background-position:0px -108px;}
+.socialActions ul.socialLinks li.twitter a{width:12px;height:14px;background-position:-11px -38px;margin:2px 25px 0px 28px;}
+.socialActions ul.socialLinks li.twitter a:hover{background-position:-11px -108px;}
+.socialActions ul.socialLinks li.linkedin a{width:13px;height:12px;background-position:-26px -38px;margin:2px 0 0 0;}
+.socialActions ul.socialLinks li.linkedin a:hover{background-position:-26px -108px;}
+.socialActions ul.socialLinks li.rss a{width:12px;height:11px;background-position:-43px -38px;margin:3px 0 0 28px;}
+.socialActions ul.socialLinks li.rss a:hover{background-position:-43px -108px;}
+/*==========================================================================  SOCIAL ACTIONS end  ==========================================================================*/
+
+
+/*==========================================================================  WIDGET start  ==========================================================================*/
+.widget{margin-bottom:30px;}
+/*==========================================================================  WIDGET end  ==========================================================================*/
+
+
+/*==========================================================================  WIDGET LIST start  ==========================================================================*/
+.widget.list{}
+.widget.list h3.title{margin:0px 0px 7px 0px;font-size:15px;color:#333333;font-weight:bold;}
+.widget.list ul{margin:0;padding:0;list-style:none;}
+.widget.list li{font-size:13px;line-height:13px;border-bottom:1px solid #e7e6e6;}
+.widget.list li:last-child{border:none;}
+.widget.list li a{color:#747474;text-decoration:none;padding:7px 0px 7px 8px;display:block;}
+.widget.list li a:hover , .widget.list li.selected a{background-color:#3c84b9;color:#FFF;}
+.widget.list li a span.icon{display:inline-block;display:inline-block;width:5px;height:8px;background:url("../../images/theme/images.png") no-repeat -6px -83px;margin-right:5px;}
+.widget.list li a:hover span.icon, .widget.list li.selected a span.icon{background-position:-6px -92px;}
+/*==========================================================================  WIDGET LIST end  ==========================================================================*/
+
+/*==========================================================================  WIDGET NEWS start  ==========================================================================*/
+.widget.news{border:2px solid #d3d3d3;border-top:2px solid #3880d8;}
+.widget.news h3.title{margin:0px;font-size:15px;color:#333333;font-weight:bold;padding:17px 17px 0px;}
+.widget.news ul{margin:0;padding:0;list-style:none;}
+.widget.news li.newsItem{border-bottom:1px solid #e2e2e2;}
+.widget.news li.newsItem:last-child{border-bottom:none;}
+
+.widget.news li.newsItem a{padding:17px;overflow:hidden;display:block;text-decoration:none;}
+.widget.news .newsItem .left{width:50px;height:50px;margin-right:15px;}
+.widget.news .newsItem .right{width:117px;}
+.widget.news .newsItem .right h4{margin:0;font-size:13px;color:#444;}
+.widget.news .newsItem .right .date{color:#747474;font-size:12px;font-style:italic;margin-top:5px;}
+
+.widget.news li.newsItem a:hover{background-color:#4796df;}
+.widget.news li.newsItem a:hover .right h4, .widget.news li.newsItem a:hover .right .date{color:#FFF;}
+/*==========================================================================  WIDGET NEWS end  ==========================================================================*/
+
+
+/*==========================================================================  ERRORS start  ==========================================================================*/
+#invalid_email_address{font-size: 16px;font-weight: bold;color: #FF0000;}
+.section.invitation #invalid_email_address{padding-bottom:11px;}
+/*==========================================================================  ERRORS end  ==========================================================================*/
+
+/*==========================================================================  BLOCK OF TEXT STYLING start  ==========================================================================*/
+.textBlock{color:#747474;font-size:13px;}
+.textBlock h2{font-size:26px;color:#333;font-weight:600;}
+.textBlock h3{font-size:20px;color:#333;font-weight:600;}
+.textBlock h4{font-size:16px;color:#333;font-weight:600;}
+.textBlock h5{font-size:14px;color:#333;font-weight:600;}
+.textBlock h6{font-size:14px;color:#333;}
+.textBlock h6 a, .textBlock h5 a, .textBlock h4 a, .textBlock h3 a, .textBlock h2 a, .textBlock h1 a{color:#333;}
+.textBlock h6 a:hover, .textBlock h5 a:hover, .textBlock h4 a:hover, .textBlock h3 a:hover, .textBlock h2 a:hover, .textBlock h1 a:hover{text-decoration:none;}
+.textBlock a{color:#3C84B9;}
+.textBlock a:hover{text-decoration:none;}
+.textBlock em , .textBlock i{font-style:italic;}
+.textBlock strong , .textBlock b{font-weight:bold;}
+.textBlock ul{list-style:inside;}
+.textBlock ol{list-style:decimal;}
+.textBlock li{}
+/*==========================================================================  BLOCK OF TEXT STYLING end  ==========================================================================*/
