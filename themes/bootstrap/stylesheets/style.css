@@ -1,3 +1,9 @@
+@import url("blog.css");
+@import url("generic.css");
+@import url("website.css");
+@import url("normalize.min.css");
+@import url("reset.css");
+
 /*START Copy from style.scss of careacross*/
 
 header{width:100%;}
@@ -92,7 +98,7 @@ img.centered, img.alignleft, img.alignright, img.thumb {
 
 .navbar-inverse .navbar-inner {
         background-image: url("/images/theme/header-menu.png");
-        
+
 }
 
 .navbar .nav > li {
@@ -525,19 +531,4 @@ strong a:hover{
 .nav_img {
     padding-top:0px !important;
     padding-bottom:0px !important;
-}
-
-#interest_registered {
-    font-size: 14px;
-}
-
-
-#wysihtml5-toolbar {
-    font-size: 20px;
-}
-
-#data-wysihtml5-command {
-    border: 3px;
-    border-color: black;
-    font-size: 20px;
 }
