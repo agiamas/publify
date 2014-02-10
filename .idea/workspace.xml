@@ -2,11 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/div/dialogs/div.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/find/dialogs/find.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/flash/dialogs/flash.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/flash/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/hiddenfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/radio.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/select.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/textarea.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/textfield.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/images/hiddenfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/iframe/dialogs/iframe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/iframe/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/liststyle/dialogs/liststyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/pagebreak/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_address.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_blockquote.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_div.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_h6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_p.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_pre.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/dialogs/smiley.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/angel_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/angel_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/angry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/angry_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/broken_heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/broken_heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/confused_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/confused_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/cry_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/cry_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/devil_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/devil_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/embaressed_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/embarrassed_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/embarrassed_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/envelope.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/envelope.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/heart.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/heart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/kiss.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/kiss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/lightbulb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/lightbulb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/omg_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/omg_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/regular_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/regular_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/sad_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/sad_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/shades_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/shades_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/teeth_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/teeth_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/thumbs_down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/thumbs_down.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/thumbs_up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/thumbs_up.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/tongue_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/tongue_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/tounge_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/whatchutalkingabout_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/whatchutalkingabout_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/wink_smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/wink_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/dialogs/templates.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/dialogs/templates.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template3.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/icons.png" afterPath="$PROJECT_DIR$/public/plugins/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/icons.png" afterPath="$PROJECT_DIR$/public/skins/moono/icons.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/plugins/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/skins/moono/icons_hidpi.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/af.js" afterPath="$PROJECT_DIR$/public/lang/af.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ar.js" afterPath="$PROJECT_DIR$/public/lang/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bg.js" afterPath="$PROJECT_DIR$/public/lang/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bn.js" afterPath="$PROJECT_DIR$/public/lang/bn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bs.js" afterPath="$PROJECT_DIR$/public/lang/bs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build-config.js" afterPath="$PROJECT_DIR$/public/build-config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ca.js" afterPath="$PROJECT_DIR$/public/lang/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ckeditor.js" afterPath="$PROJECT_DIR$/public/ckeditor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/config.js" afterPath="$PROJECT_DIR$/public/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/config.js" afterPath="$PROJECT_DIR$/public/javascripts/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/cs.js" afterPath="$PROJECT_DIR$/public/lang/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/cy.js" afterPath="$PROJECT_DIR$/public/lang/cy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/da.js" afterPath="$PROJECT_DIR$/public/lang/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/de.js" afterPath="$PROJECT_DIR$/public/lang/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_gecko.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie7.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_iequirks.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/el.js" afterPath="$PROJECT_DIR$/public/lang/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-au.js" afterPath="$PROJECT_DIR$/public/lang/en-au.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-ca.js" afterPath="$PROJECT_DIR$/public/lang/en-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/lang/en-gb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en.js" afterPath="$PROJECT_DIR$/public/lang/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/eo.js" afterPath="$PROJECT_DIR$/public/lang/eo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/es.js" afterPath="$PROJECT_DIR$/public/lang/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/et.js" afterPath="$PROJECT_DIR$/public/lang/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/eu.js" afterPath="$PROJECT_DIR$/public/lang/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fa.js" afterPath="$PROJECT_DIR$/public/lang/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fi.js" afterPath="$PROJECT_DIR$/public/lang/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fo.js" afterPath="$PROJECT_DIR$/public/lang/fo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/lang/fr-ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fr.js" afterPath="$PROJECT_DIR$/public/lang/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/gl.js" afterPath="$PROJECT_DIR$/public/lang/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/gu.js" afterPath="$PROJECT_DIR$/public/lang/gu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/he.js" afterPath="$PROJECT_DIR$/public/lang/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hi.js" afterPath="$PROJECT_DIR$/public/lang/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hr.js" afterPath="$PROJECT_DIR$/public/lang/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hu.js" afterPath="$PROJECT_DIR$/public/lang/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/id.js" afterPath="$PROJECT_DIR$/public/lang/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/is.js" afterPath="$PROJECT_DIR$/public/lang/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/it.js" afterPath="$PROJECT_DIR$/public/lang/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ja.js" afterPath="$PROJECT_DIR$/public/lang/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ka.js" afterPath="$PROJECT_DIR$/public/lang/ka.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/km.js" afterPath="$PROJECT_DIR$/public/lang/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ko.js" afterPath="$PROJECT_DIR$/public/lang/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ku.js" afterPath="$PROJECT_DIR$/public/lang/ku.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/lt.js" afterPath="$PROJECT_DIR$/public/lang/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/lv.js" afterPath="$PROJECT_DIR$/public/lang/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/mk.js" afterPath="$PROJECT_DIR$/public/lang/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/mn.js" afterPath="$PROJECT_DIR$/public/lang/mn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ms.js" afterPath="$PROJECT_DIR$/public/lang/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/nb.js" afterPath="$PROJECT_DIR$/public/lang/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/nl.js" afterPath="$PROJECT_DIR$/public/lang/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/no.js" afterPath="$PROJECT_DIR$/public/lang/no.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pl.js" afterPath="$PROJECT_DIR$/public/lang/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/lang/pt-br.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pt.js" afterPath="$PROJECT_DIR$/public/lang/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ro.js" afterPath="$PROJECT_DIR$/public/lang/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ru.js" afterPath="$PROJECT_DIR$/public/lang/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/si.js" afterPath="$PROJECT_DIR$/public/lang/si.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sk.js" afterPath="$PROJECT_DIR$/public/lang/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sl.js" afterPath="$PROJECT_DIR$/public/lang/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sq.js" afterPath="$PROJECT_DIR$/public/lang/sq.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/lang/sr-latn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sr.js" afterPath="$PROJECT_DIR$/public/lang/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles.js" afterPath="$PROJECT_DIR$/public/styles.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sv.js" afterPath="$PROJECT_DIR$/public/lang/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/th.js" afterPath="$PROJECT_DIR$/public/lang/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/tr.js" afterPath="$PROJECT_DIR$/public/lang/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ug.js" afterPath="$PROJECT_DIR$/public/lang/ug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/uk.js" afterPath="$PROJECT_DIR$/public/lang/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/vi.js" afterPath="$PROJECT_DIR$/public/lang/vi.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/lang/zh-cn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/zh.js" afterPath="$PROJECT_DIR$/public/lang/zh.js" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392041631263" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043531327" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
     <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392042462350" ignored="false" />
@@ -18,6 +179,7 @@
     <file path="/index.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392034137790" ignored="false" />
     <file path="$PROJECT_DIR$/app/views/layouts/administration.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040597151" ignored="false" />
     <file path="/Gemfile" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040736177" ignored="false" />
+    <file path="/config.js" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043649374" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +208,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="37" selection-start="522" selection-end="528" vertical-scroll-proportion="0.5241935">
+            <state line="24" column="39" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ckeditor.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/ckeditor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="89" selection-start="1525" selection-end="1525" vertical-scroll-proportion="-9.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contents.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/contents.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-config.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/build-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="10" selection-start="2224" selection-end="2225" vertical-scroll-proportion="0.33333334">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,9 +261,7 @@
         <entry file="file://$PROJECT_DIR$/public/javascripts/build-config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="33" column="50" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +269,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/admin/content/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="36" selection-start="28" selection-end="36" vertical-scroll-proportion="-0.0">
+            <state line="0" column="36" selection-start="28" selection-end="36" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -88,42 +288,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/admin/content/_images.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="13" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="56" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_article.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_article.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="55" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="read.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="64" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,6 +322,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/javascripts/config.js" />
+        <option value="$PROJECT_DIR$/public/config.js" />
       </list>
     </option>
   </component>
@@ -199,7 +365,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -334,15 +500,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -357,6 +515,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,21 +538,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="41" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="45" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="52" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="52" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="50" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="437" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="50" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="414" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="437" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="54" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="53" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -405,8 +567,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -713,22 +875,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="721" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32428116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26661265" sideWeight="0.67571884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.6741214" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32428116" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32428116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -797,44 +959,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/resource.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="119" selection-end="119" vertical-scroll-proportion="0.20215634">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/admin/content_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="4" selection-start="4487" selection-end="4487" vertical-scroll-proportion="0.33240223">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml.mysql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/railties-3.2.16/guides/code/getting_started/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="115" selection-end="161" vertical-scroll-proportion="0.216763" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/adapters/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/themes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
@@ -889,9 +1021,7 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/build-config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="50" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -902,10 +1032,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/contents.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/ckeditor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="37" selection-start="522" selection-end="528" vertical-scroll-proportion="0.5241935">
+        <state line="24" column="39" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="89" selection-start="1525" selection-end="1525" vertical-scroll-proportion="-9.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/build-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="10" selection-start="2224" selection-end="2225" vertical-scroll-proportion="0.33333334">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
