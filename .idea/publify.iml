@@ -47,14 +47,13 @@
     <orderEntry type="library" scope="PROVIDED" name="faraday (v0.9.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="flickraw (v0.9.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="flickraw-cached (v20120701, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="fog (v1.20.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="fog (v1.19.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="htmlentities (v4.3.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http (v0.5.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="http_parser.rb (v0.6.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.9, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="iconv (v1.0.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kaminari (v0.15.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
@@ -70,6 +69,7 @@
     <orderEntry type="library" scope="PROVIDED" name="net-scp (v1.1.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="net-ssh (v2.8.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="prototype-rails (v3.2.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pry (v0.9.12.6, RVM: ruby-1.9.3-p448) [gem]" level="application" />
@@ -85,10 +85,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v3.12.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="recaptcha (v0.3.6, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="require_relative (v1.0.3, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.14.7, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.14.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.14.5, RVM: ruby-1.9.3-p448) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v2.14.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v2.13.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v2.13.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v2.13.1, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v2.13.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-hmac (v0.4.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubypants (v0.2.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_oauth (v0.2.0, RVM: ruby-1.9.3-p448) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.8.2, RVM: ruby-1.9.3-p448) [gem]" level="application" />
