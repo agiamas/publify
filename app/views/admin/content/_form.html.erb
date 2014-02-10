@@ -1,3 +1,78 @@
+<style>
+    body {
+        font-family: Verdana;
+        font-size: 11px;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    small {
+        display: block;
+        margin-top: 40px;
+        font-size: 9px;
+    }
+
+    small,
+    small a {
+        color: #666;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    #toolbar [data-wysihtml5-action] {
+        float: right;
+    }
+
+    #toolbar,
+    textarea {
+        width: 920px;
+        padding: 5px;
+        -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    textarea {
+        height: 280px;
+        border: 2px solid green;
+        font-family: Verdana;
+        font-size: 11px;
+    }
+
+    textarea:focus {
+        color: black;
+        border: 2px solid black;
+    }
+
+    .wysihtml5-command-active {
+        font-weight: bold;
+    }
+
+    [data-wysihtml5-dialog] {
+        margin: 5px 0 0;
+        padding: 5px;
+        border: 1px solid #666;
+    }
+
+    a[data-wysihtml5-command-value="red"] {
+        color: red;
+    }
+
+    a[data-wysihtml5-command-value="green"] {
+        color: green;
+    }
+
+    a[data-wysihtml5-command-value="blue"] {
+        color: blue;
+    }
+</style>
 <!-- wysihtml5 parser rules -->
 <script src="/javascripts/advanced.js"></script>
 <!-- Library -->
@@ -24,13 +99,21 @@
       <%= text_field 'article', 'title', :class => 'input-block-level', :placeholder => _('Title') %>
     </div>
 
-    <%= render('images', { :images => @images}) unless @images.empty? %>
+    <%= render('images', { :images => @images}) %> <!-- unless @images.empty? %>-->
+
+    <!--<div id='editor-menu'>-->
+      <!--<ul class="nav nav-tabs">-->
+        <!--<li id='image-link'><%#= toggle_element 'carousel-wrapper', _("Images") %></li>-->
+      <!--</ul>-->
+    <!--</div>-->
 
     <div id="editor">
       <i class='icon icon-media'></i> <span id='image-link'><%= toggle_element 'carousel-wrapper', _("Images") %></span>
+
       <div id='quicktags'>
         <!-- html5 rich editor -->
         <div id="wysihtml5-toolbar" style="display: none;">
+
           <a data-wysihtml5-command="bold">bold</a>
           <a data-wysihtml5-command="italic">italic</a>
 
@@ -41,6 +124,10 @@
           <a data-wysihtml5-command="justifyCenter">align center</a>
           <a data-wysihtml5-command="justifyRight">align right</a>
           <a data-wysihtml5-command="underline">underline</a>
+          <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">h1</a>
+          <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2">h2</a>
+          <a data-wysihtml5-command="customClassBlock" data-wysihtml5-command-value="div|careacrossheader">Add careacross header</a>
+          <a data-wysihtml5-action="change_view">switch to html view</a>
           <!-- Some wysihtml5 commands like 'createLink' require extra paramaters specified by the user (eg. href) -->
           <a data-wysihtml5-command="createLink">insert link</a>
           <div data-wysihtml5-dialog="createLink" style="display: none;">
@@ -159,11 +246,25 @@
 
 
 <script>
-    var editor = new wysihtml5.Editor("wysihtml5-textarea", { // id of textarea element
-        toolbar:      "wysihtml5-toolbar", // id of toolbar element
-        parserRules:  wysihtml5ParserRules
-    });
-    editor.composer.commands.exec("insertOrderedList");
-    editor.composer.commands.exec("insertUnorderedList");
-
+        var editor = new wysihtml5.Editor("wysihtml5-textarea", { // id of textarea element
+            toolbar:      "wysihtml5-toolbar", // id of toolbar element
+            stylesheets:    "/stylesheets/wysihtml5-stylesheet.css",
+            parserRules:  wysihtml5ParserRules
+        });
+   // editor.composer.commands.exec("insertOrderedList");
+   // editor.composer.commands.exec("insertUnorderedList");
+        wysihtml5.commands.customClassBlock = {
+            exec: function(composer, command, value) {
+                var splitted_value = value.split('|');
+                var nodeName = splitted_value[0];
+                var className = splitted_value[1];
+                return wysihtml5.commands.formatBlock.exec(composer, command, nodeName, className, new RegExp(className, "g"));
+            },
+            state: function(composer, command, value) {
+                var splitted_value = value.split('|');
+                var nodeName = splitted_value[0];
+                var className = splitted_value[1];
+                return wysihtml5.commands.formatBlock.state(composer, command, nodeName, className, new RegExp(className, "g"));
+            }
+        };
 </script>
