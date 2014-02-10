@@ -1,3 +1,8 @@
+
+
+<%= javascript_include_tag "ckeditor" %>
+<%= javascript_include_tag "config" %>
+
 <input type="hidden" name="user_textfilter" id="user_textfilter" value="<%= current_user.text_filter_name %>" />
 <div id="autosave"><%= set_autosave_tag(@article) %></div>
 <div id="article_keywords_auto_complete" class="auto_complete"></div>
@@ -23,12 +28,13 @@
 
     <div id="editor">
       <i class='icon icon-media'></i> <span id='image-link'><%= toggle_element 'carousel-wrapper', _("Images") %></span>
-      <div id='quicktags'>
-        <script type="text/javascript">edToolbar('article_body_and_extended', '<%= @article.text_filter %>');</script>
-      </div>
+      <!--<div id='quicktags'>-->
+        <!--<script type="text/javascript">edToolbar('article_body_and_extended', '<%= @article.text_filter %>');</script>-->
+      <!--</div>-->
 
-      <div id='simple_editor'>
-        <%= text_area('article', 'body_and_extended', {:class => 'input-block-level', :height => '360px'}) %>
+      <!--<div id='simple_editor'>-->
+      <div class='ckeditor'>
+        <%= text_area('article', 'body_and_extended', {:class => 'ckeditor input-block-level', :height => '360px'}) %>
         <%= render 'admin/shared/macros' %>
       </div>
     </div>
