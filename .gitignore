@@ -1,4 +1,3 @@
-config/database.yml
 config/mail.yml
 config/secret.token
 *.log
@@ -21,7 +20,6 @@ tmp/*
 /coverage/
 nbproject
 public/cache/*
-Gemfile.lock
 .rbenv-version
 .ruby-version
 bin/
@@ -30,3 +28,4 @@ bin/
 /themes/*
 !/themes/bootstrap
 !/themes/typographic
+.idea/

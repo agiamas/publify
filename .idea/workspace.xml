@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_article.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_article.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/index.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="" />
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033385399" ignored="false" />
@@ -125,7 +119,7 @@
       <file leaf-file-name="read.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="42" selection-start="352" selection-end="352" vertical-scroll-proportion="0.3883495">
+            <state line="17" column="64" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8252427">
               <folding />
             </state>
           </provider>
@@ -1054,7 +1048,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="42" selection-start="352" selection-end="352" vertical-scroll-proportion="0.3883495">
+        <state line="17" column="64" selection-start="790" selection-end="790" vertical-scroll-proportion="0.8252427">
           <folding />
         </state>
       </provider>
