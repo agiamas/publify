@@ -207,6 +207,10 @@ GEM
       naught (~> 1.0)
       simple_oauth (~> 0.2.0)
     tzinfo (0.3.38)
+    unf (0.1.3)
+      unf_ext
+    unf_ext (0.0.6)
+    unf_ext (0.0.6-x86-mingw32)
     uuidtools (2.1.4)
     webrat (0.7.3)
       nokogiri (>= 1.2.0)
@@ -249,5 +253,6 @@ DEPENDENCIES
   sqlite3
   thin
   twitter
+  unf
   uuidtools (~> 2.1.1)
   webrat

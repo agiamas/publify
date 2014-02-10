@@ -2,8 +2,145 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build-config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/da_DK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/en_US.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/fr_FR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/nl_NL.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/javascripts/lang/zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/bn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/en-au.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/a11yhelp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/gu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/mn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sr-latn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/a11yhelp/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/about/dialogs/about.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/about/dialogs/hidpi/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/about/dialogs/logo_ckeditor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/clipboard/dialogs/paste.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/colordialog/dialogs/colordialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/dialog/dialogDefinition.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/div/dialogs/div.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/fakeobjects/images/spacer.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/find/dialogs/find.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/flash/dialogs/flash.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/flash/images/placeholder.png" afterPath="" />
@@ -16,11 +153,26 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/textarea.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/dialogs/textfield.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/forms/images/hiddenfield.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/icons_hidpi.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/iframe/dialogs/iframe.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/iframe/images/placeholder.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/image/dialogs/image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/image/images/noimage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/link/dialogs/anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/link/dialogs/link.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/link/images/anchor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/link/images/hidpi/anchor.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/liststyle/dialogs/liststyle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/magicline/images/hidpi/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/magicline/images/icon.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/pagebreak/images/pagebreak.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/pastefromword/filter/default.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/preview/preview.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/scayt/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/scayt/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/scayt/dialogs/options.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/scayt/dialogs/toolbar.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_address.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_blockquote.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/showblocks/images/block_div.png" afterPath="" />
@@ -77,100 +229,110 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/whatchutalkingabout_smile.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/wink_smile.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/smiley/images/wink_smile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/_translationstatus.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/cy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ku.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/si.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/ug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/lang/zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/specialchar/dialogs/specialchar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/table/dialogs/table.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/tabletools/dialogs/tableCell.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/dialogs/templates.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/dialogs/templates.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/default.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template1.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template2.gif" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/templates/templates/images/template3.gif" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/icons.png" afterPath="$PROJECT_DIR$/public/plugins/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/icons.png" afterPath="$PROJECT_DIR$/public/skins/moono/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/plugins/icons_hidpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/icons_hidpi.png" afterPath="$PROJECT_DIR$/public/skins/moono/icons_hidpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/af.js" afterPath="$PROJECT_DIR$/public/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ar.js" afterPath="$PROJECT_DIR$/public/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bg.js" afterPath="$PROJECT_DIR$/public/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bn.js" afterPath="$PROJECT_DIR$/public/lang/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/bs.js" afterPath="$PROJECT_DIR$/public/lang/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build-config.js" afterPath="$PROJECT_DIR$/public/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ca.js" afterPath="$PROJECT_DIR$/public/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/ckeditor.js" afterPath="$PROJECT_DIR$/public/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/config.js" afterPath="$PROJECT_DIR$/public/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/config.js" afterPath="$PROJECT_DIR$/public/javascripts/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/cs.js" afterPath="$PROJECT_DIR$/public/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/cy.js" afterPath="$PROJECT_DIR$/public/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/da.js" afterPath="$PROJECT_DIR$/public/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/de.js" afterPath="$PROJECT_DIR$/public/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_gecko.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_gecko.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie7.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie7.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie8.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/skins/moono/editor_iequirks.css" afterPath="$PROJECT_DIR$/public/skins/moono/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/el.js" afterPath="$PROJECT_DIR$/public/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-au.js" afterPath="$PROJECT_DIR$/public/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-ca.js" afterPath="$PROJECT_DIR$/public/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en-gb.js" afterPath="$PROJECT_DIR$/public/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/en.js" afterPath="$PROJECT_DIR$/public/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/eo.js" afterPath="$PROJECT_DIR$/public/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/es.js" afterPath="$PROJECT_DIR$/public/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/et.js" afterPath="$PROJECT_DIR$/public/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/eu.js" afterPath="$PROJECT_DIR$/public/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fa.js" afterPath="$PROJECT_DIR$/public/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fi.js" afterPath="$PROJECT_DIR$/public/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fo.js" afterPath="$PROJECT_DIR$/public/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fr-ca.js" afterPath="$PROJECT_DIR$/public/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/fr.js" afterPath="$PROJECT_DIR$/public/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/gl.js" afterPath="$PROJECT_DIR$/public/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/gu.js" afterPath="$PROJECT_DIR$/public/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/he.js" afterPath="$PROJECT_DIR$/public/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hi.js" afterPath="$PROJECT_DIR$/public/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hr.js" afterPath="$PROJECT_DIR$/public/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/hu.js" afterPath="$PROJECT_DIR$/public/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/id.js" afterPath="$PROJECT_DIR$/public/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/is.js" afterPath="$PROJECT_DIR$/public/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/it.js" afterPath="$PROJECT_DIR$/public/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ja.js" afterPath="$PROJECT_DIR$/public/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ka.js" afterPath="$PROJECT_DIR$/public/lang/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/km.js" afterPath="$PROJECT_DIR$/public/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ko.js" afterPath="$PROJECT_DIR$/public/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ku.js" afterPath="$PROJECT_DIR$/public/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/lt.js" afterPath="$PROJECT_DIR$/public/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/lv.js" afterPath="$PROJECT_DIR$/public/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/mk.js" afterPath="$PROJECT_DIR$/public/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/mn.js" afterPath="$PROJECT_DIR$/public/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ms.js" afterPath="$PROJECT_DIR$/public/lang/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/nb.js" afterPath="$PROJECT_DIR$/public/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/nl.js" afterPath="$PROJECT_DIR$/public/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/no.js" afterPath="$PROJECT_DIR$/public/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pl.js" afterPath="$PROJECT_DIR$/public/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pt-br.js" afterPath="$PROJECT_DIR$/public/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/pt.js" afterPath="$PROJECT_DIR$/public/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ro.js" afterPath="$PROJECT_DIR$/public/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ru.js" afterPath="$PROJECT_DIR$/public/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/si.js" afterPath="$PROJECT_DIR$/public/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sk.js" afterPath="$PROJECT_DIR$/public/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sl.js" afterPath="$PROJECT_DIR$/public/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sq.js" afterPath="$PROJECT_DIR$/public/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sr-latn.js" afterPath="$PROJECT_DIR$/public/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sr.js" afterPath="$PROJECT_DIR$/public/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles.js" afterPath="$PROJECT_DIR$/public/styles.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/sv.js" afterPath="$PROJECT_DIR$/public/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/th.js" afterPath="$PROJECT_DIR$/public/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/tr.js" afterPath="$PROJECT_DIR$/public/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/ug.js" afterPath="$PROJECT_DIR$/public/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/uk.js" afterPath="$PROJECT_DIR$/public/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/vi.js" afterPath="$PROJECT_DIR$/public/lang/vi.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/ciframe.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/tmp.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/tmpFrameset.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/wsc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/wsc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/plugins/wsc/dialogs/wsc_ie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/dialog_opera.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor_gecko.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor_ie8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/editor_iequirks.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/icons_hidpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/hidpi/close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/hidpi/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/hidpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/hidpi/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/lock-open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.heroku" afterPath="$PROJECT_DIR$/Gemfile.heroku" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/publify.iml" afterPath="$PROJECT_DIR$/.idea/publify.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/storage.yml" afterPath="$PROJECT_DIR$/config/storage.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/zh-cn.js" afterPath="$PROJECT_DIR$/public/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lang/zh.js" afterPath="$PROJECT_DIR$/public/lang/zh.js" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043531327" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
-    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392042462350" ignored="false" />
+    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392047496075" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
     <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033555930" ignored="false" />
     <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033744298" ignored="false" />
@@ -180,6 +342,9 @@
     <file path="$PROJECT_DIR$/app/views/layouts/administration.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040597151" ignored="false" />
     <file path="/Gemfile" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040736177" ignored="false" />
     <file path="/config.js" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043649374" ignored="false" />
+    <file path="/storage.yml" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392048054703" ignored="false" />
+    <file path="/carrierwave.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392048280448" ignored="false" />
+    <file path="/README.md" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392048109861" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,48 +376,8 @@
       <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+            <state line="6" column="59" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ckeditor.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/ckeditor.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="89" selection-start="1525" selection-end="1525" vertical-scroll-proportion="-9.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contents.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/contents.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build-config.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/build-config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="10" selection-start="2224" selection-end="2225" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -260,7 +385,7 @@
       <file leaf-file-name="build-config.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/build-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="50" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
+            <state line="41" column="50" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -278,7 +403,34 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="1" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
+            <state line="42" column="9" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-6.3461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storage.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/storage.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carrierwave.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="37" selection-start="651" selection-end="651" vertical-scroll-proportion="0.787172">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="159" column="21" selection-start="4745" selection-end="4745" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -319,11 +471,14 @@
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/index.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_article.html.erb" />
         <option value="$PROJECT_DIR$/app/views/admin/content/_images.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/admin/content/_form.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/public/javascripts/config.js" />
         <option value="$PROJECT_DIR$/public/config.js" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/storage.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
       </list>
     </option>
   </component>
@@ -758,7 +913,11 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <envs>
+        <env name="s3_secret_access_key" value="DHbP2s7BEMmP7JL0DTlZMZo6koV4sbZFPPe0lPFI" />
+        <env name="s3_bucket" value="careacross-dev-us" />
         <env name="RECAPTCHA_PRIVATE_KEY" value="6LfgRe4SAAAAAD6LxxPjBpeVYDEt7eg7Jt4DNKdp" />
+        <env name="s3_access_key_id" value="AKIAJAD63YELJWQ25YIQ" />
+        <env name="provider" value="AWS" />
       </envs>
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" />
@@ -830,11 +989,11 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Production: publify" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Development: publify" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="0" class="java.lang.String" itemvalue="Rails.Production: publify" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Development: publify" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.assets:precompile" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -877,21 +1036,21 @@
     <frame x="0" y="22" width="1280" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32371795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.6741214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27147487" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32428116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1004,13 +1163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="1" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="534" column="0" selection-start="10475" selection-end="10475" vertical-scroll-proportion="0.0">
@@ -1020,7 +1172,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/build-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="50" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
+        <state line="41" column="50" selection-start="1232" selection-end="1232" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1032,42 +1184,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/contents.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/ckeditor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+        <state line="6" column="59" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/config.js">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="89" selection-start="1525" selection-end="1525" vertical-scroll-proportion="-9.230769">
+        <state line="42" column="9" selection-start="1022" selection-end="1022" vertical-scroll-proportion="-6.3461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/build-config.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="10" selection-start="2224" selection-end="2225" vertical-scroll-proportion="0.33333334">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="159" column="21" selection-start="4745" selection-end="4745" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/storage.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="37" selection-start="651" selection-end="651" vertical-scroll-proportion="0.787172">
+          <folding />
         </state>
       </provider>
     </entry>

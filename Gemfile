@@ -40,6 +40,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'unf'
 #gem 'bootstrap-wysihtml5-rails'
 
 # Install gems from each theme

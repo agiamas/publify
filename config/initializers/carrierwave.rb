@@ -8,16 +8,16 @@ else
   configuration = File.exists?(configuration_file) ? YAML.load_file(configuration_file) : {}
 
   CarrierWave.configure do |config|
-    if configuration["provider"] == "AWS"
+    if ENV["provider"] == "AWS"
       config.storage = :fog
 
       config.fog_credentials = {
         :provider               => 'AWS',
-        :aws_access_key_id      => configuration["aws_access_key_id"],
-        :aws_secret_access_key  => configuration["aws_secret_access_key"]
+        :aws_access_key_id      => ENV["s3_access_key_id"],
+        :aws_secret_access_key  => ENV["s3_secret_access_key"]
       }
 
-      config.fog_directory  = configuration["aws_bucket"]
+      config.fog_directory  = ENV["s3_bucket"]
       config.fog_public     = true
       config.fog_attributes = { 'Cache-Control' => 'max-age=315576000' }
     else
