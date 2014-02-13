@@ -6,11 +6,11 @@
   </div>
   <%= render 'articles/meta', article: @article %>
 
-  <% if @article.user.twitter %>
-      <div class='well'>
-        <%= _("If you liked this article you can %s", link_to(_("add me to Twitter"), "http://twitter.com/#{@article.user.twitter}")) %>
-      </div>
-  <% end %>
+  <!--<%# if @article.user.twitter %>-->
+      <!--<div class='well'>-->
+        <!--<%#= _("If you liked this article you can %s", link_to(_("add me to Twitter"), "http://twitter.com/#{@article.user.twitter}")) %>-->
+      <!--</div>-->
+  <!--<%# end %>-->
 
   <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
       <h3 class="feedback" id="commentaires">
