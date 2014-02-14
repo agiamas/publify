@@ -316,8 +316,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/refresh.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/readme.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" afterPath="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" afterPath="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
     </list>
@@ -328,7 +327,7 @@
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
     <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392285447903" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
-    <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392107932453" ignored="false" />
+    <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380792819" ignored="false" />
     <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033744298" ignored="false" />
     <file path="/_images.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392026428080" ignored="false" />
     <file path="/read.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392281019180" ignored="false" />
@@ -369,6 +368,7 @@
     <file path="/_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392289386018" ignored="false" />
     <file path="/_full_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392280753464" ignored="false" />
     <file path="/_comment.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392285471370" ignored="false" />
+    <file path="/blog.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380646818" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -397,19 +397,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-3.9">
+            <state line="96" column="36" selection-start="3818" selection-end="3818" vertical-scroll-proportion="0.6103896">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="blog.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.45530728">
+            <state line="5" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -510,8 +510,8 @@
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
       </list>
     </option>
   </component>
@@ -1283,16 +1283,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="1729" selection-end="1729" vertical-scroll-proportion="-3.9">
+        <state line="5" column="40" selection-start="381" selection-end="381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.45530728">
+        <state line="96" column="36" selection-start="3818" selection-end="3818" vertical-scroll-proportion="0.6103896">
           <folding />
         </state>
       </provider>

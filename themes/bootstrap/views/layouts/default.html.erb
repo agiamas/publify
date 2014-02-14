@@ -29,7 +29,7 @@
         <li><a href="http://www.careacross.com/newslist">News</a></li>
         <li><a href="http://www.careacross.com/toolslist">Tools</a></li>
       </ul>
-      <a id="ribbon" class="ribbon" href="https://www.careacross.com/#signin"><span>LOG IN</span></a>
+      <a id="ribbon" class="ribbon" href="https://www.careacross.com/#signin"><span>Sign In</span></a>
     </div>
   </header>
 
@@ -50,12 +50,12 @@
 <footer>
   <div class="siteWidth">
     <ul class="footerMenu">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Editorial Board</a></li>
-      <li><a href="#">Partners</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Privacy</a></li>
-      <li><a href="#">Contact us</a></li>
+      <!--<li><a href="#">About</a></li>-->
+      <!--<li><a href="#">Editorial Board</a></li>-->
+      <!--<li><a href="#">Partners</a></li>-->
+      <li><a href="https://blog.careacross.com">Blog</a></li>
+      <!--<li><a href="#">Privacy</a></li>-->
+      <!--<li><a href="#">Contact us</a></li>-->
     </ul>
     <!--footerMenu -->
     <ul class="social">
@@ -71,5 +71,29 @@
 <!-- AddThis Pro BEGIN -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52010e755298d660"></script>
 <!-- AddThis Pro END -->
+<!-- viewport for mobile devices START -->
+<script type="text/javascript">
+    (function(doc) {
+
+        var addEvent = 'addEventListener',
+                type = 'gesturestart',
+                qsa = 'querySelectorAll',
+                scales = [1, 1],
+                meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+        function fix() {
+            meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+            doc.removeEventListener(type, fix, true);
+        }
+
+        if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+            fix();
+            scales = [.25, 1.6];
+            doc[addEvent](type, fix, true);
+        }
+
+    }(document));
+</script>
+<!-- viewport for mobile devices END -->
 </body>
 </html>

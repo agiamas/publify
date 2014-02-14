@@ -3,7 +3,7 @@ body{font-family: 'Open Sans', sans-serif;}
 .blog .mainContainer a:hover{text-decoration:none;}
 img.careacross-center{display:block;margin:0px auto;}
 /*============================================================== SIDEBAR WIDGETS start ==============================================================*/
-.blog .mainContainer .mainNav{float:right;margin:0px 0px 0px 50px;}
+.blog .mainContainer .mainNav{float:left;margin:0px 0px 0px 50px;}
 .blog .mainContainer .mainNav h3.sidebar-title{color: #333333;font-size: 15px;font-weight: bold;margin: 0 0 7px;}
 .blog .mainContainer .mainNav ul{margin:0px 0px 30px 0px;padding:0;list-style:none;}
 .blog .mainContainer .mainNav li{font-size:13px;line-height:13px;border-bottom:1px solid #e7e6e6;}
