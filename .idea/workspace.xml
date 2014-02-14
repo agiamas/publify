@@ -316,14 +316,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/images/refresh.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/skins/moono/readme.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392279826675" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
-    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392381061294" ignored="false" />
+    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392381371465" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
     <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380792819" ignored="false" />
     <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033744298" ignored="false" />
@@ -387,10 +387,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="23" selection-start="2887" selection-end="2887" vertical-scroll-proportion="-3.16">
+            <state line="71" column="42" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.33116883">
               <folding />
             </state>
           </provider>
@@ -414,10 +414,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_meta.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_meta.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="53" selection-start="456" selection-end="456" vertical-scroll-proportion="0.2245509">
+            <state line="21" column="54" selection-start="1029" selection-end="1043" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -426,7 +426,7 @@
       <file leaf-file-name="_comment.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="39" selection-end="531" vertical-scroll-proportion="-3.0">
+            <state line="10" column="29" selection-start="531" selection-end="653" vertical-scroll-proportion="-3.0">
               <folding />
             </state>
           </provider>
@@ -509,8 +509,8 @@
         <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
       </list>
     </option>
   </component>
@@ -1268,13 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="23" selection-start="2887" selection-end="2887" vertical-scroll-proportion="-3.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/_article_content.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="-3.125">
@@ -1282,16 +1275,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="39" selection-end="531" vertical-scroll-proportion="-3.0">
+        <state line="21" column="54" selection-start="1029" selection-end="1043" vertical-scroll-proportion="-10.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="456" selection-end="456" vertical-scroll-proportion="0.2245509">
+        <state line="10" column="29" selection-start="531" selection-end="653" vertical-scroll-proportion="-3.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="42" selection-start="2957" selection-end="2957" vertical-scroll-proportion="0.33116883">
           <folding />
         </state>
       </provider>
