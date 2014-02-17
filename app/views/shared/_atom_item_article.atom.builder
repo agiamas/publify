@@ -1,4 +1,4 @@
-feed.entry item, :id => "urn:uuid:#{item.guid}", :published => item.published_at, :url => item.permalink_url do |entry|
+feed.entry item, :id => "urn:uuid:#{item.guid}", :published => item.published_at, :created => item.published_at, :url => item.permalink_url do |entry|
 
 
   entry.author do
