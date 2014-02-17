@@ -1,5 +1,5 @@
-feed.entry item, :id => "urn:uuid:#{item.guid}", :url => item.permalink_url do |entry|
-  entry.published  item.published_at.rfc822
+feed.entry item, :id => "urn:uuid:#{item.guid}", :published => item.published_at, :url => item.permalink_url do |entry|
+
 
   entry.author do
     name = item.user.name rescue item.author
