@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder" afterPath="$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392623413226" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
-    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392633099824" ignored="false" />
+    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392645397083" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
     <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392623646333" ignored="false" />
     <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033744298" ignored="false" />
@@ -53,12 +53,13 @@
     <file path="/_full_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392280753464" ignored="false" />
     <file path="/_comment.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392285471370" ignored="false" />
     <file path="/blog.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380646818" ignored="false" />
-    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392381336309" ignored="false" />
+    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392645680496" ignored="false" />
     <file path="/index_rss_feed.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392632493509" ignored="false" />
     <file path="/_rss_item_article.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392634092285" ignored="false" />
     <file path="/article.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392633059943" ignored="false" />
-    <file path="/_atom_item_article.atom.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392641569985" ignored="false" />
+    <file path="/_atom_item_article.atom.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392641570501" ignored="false" />
     <file path="/atom_feed_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392639708752" ignored="false" />
+    <file path="$PROJECT_DIR$/log/development.log" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392645394975" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +79,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="5" selection-start="2918" selection-end="2918" vertical-scroll-proportion="-4.6666665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index_rss_feed.rss.builder" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/articles/index_rss_feed.rss.builder">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_atom_item_article.atom.builder" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_atom_item_article.atom.builder" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="90" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+            <state line="45" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-4.769231">
               <folding />
             </state>
           </provider>
@@ -127,6 +137,24 @@
         <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_header.atom.builder">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_comment.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_meta.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="32" selection-start="919" selection-end="965" vertical-scroll-proportion="0.77319586">
               <folding />
             </state>
           </provider>
@@ -156,7 +184,6 @@
         <option value="$PROJECT_DIR$/app/views/articles/_full_article_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
@@ -166,6 +193,7 @@
         <option value="$PROJECT_DIR$/app/views/shared/_rss_item_article.rss.builder" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_view/helpers/atom_feed_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
       </list>
     </option>
   </component>
@@ -661,14 +689,14 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32108626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3006483" sideWeight="0.6741214" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3006483" sideWeight="0.6789137" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,34 +769,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/benchmark.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="8" selection-start="11849" selection-end="11849" vertical-scroll-proportion="0.3315508">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_view/helpers/text_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="10" selection-start="7356" selection-end="7356" vertical-scroll-proportion="0.24930748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="744" selection-end="744" vertical-scroll-proportion="0.24930748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/content_base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="67" column="6" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.24064171">
@@ -846,9 +846,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="5" selection-start="2918" selection-end="2918" vertical-scroll-proportion="-4.6666665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="6" selection-start="2608" selection-end="2608" vertical-scroll-proportion="2.9733727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="90" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
+        <state line="45" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-4.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="32" selection-start="919" selection-end="965" vertical-scroll-proportion="0.77319586">
           <folding />
         </state>
       </provider>
