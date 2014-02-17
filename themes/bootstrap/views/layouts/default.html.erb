@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head profile="http://gmpg.org/xfn/11">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= h(page_title) %></title>
@@ -10,7 +10,7 @@
 
   <%= stylesheet_link_tag "/stylesheets/theme/bootstrap.css", "/stylesheets/theme/style.css", :media => 'all' %>
   <%= stylesheet_link_tag "/stylesheets/theme/reset.css", "/stylesheets/theme/normalize.min.css", "/stylesheets/theme/generic.css", "/stylesheets/theme/blog.css", :media => 'all' %>
-  <%# page_header %>
+  <%= page_header %>
   <style type="text/css">
       #logo {
           background: url(<%= File.join(this_blog.base_url, "images", "theme", "bg#{Random.rand(2) + 1}.jpg") %>) top left no-repeat;
@@ -35,7 +35,7 @@
 
   <div class="content">
     <div class="headerImageContainer">
-      <%= image_tag("innerPages_TopImage.png", :class => "headerImage") %>
+      <%= image_tag("innerPages_TopImage.png", alt: "Care Across banner", :class => "headerImage") %>
     </div>
     <div class="siteWidth title">
       <h2 class="pageTitle">Blog</h2>
