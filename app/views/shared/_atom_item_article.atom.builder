@@ -1,11 +1,12 @@
 feed.entry item, :id => "urn:uuid:#{item.guid}", :url => item.permalink_url do |entry|
+  entry.published  item.published_at.rfc822
+
   entry.author do
     name = item.user.name rescue item.author
     email = item.user.email rescue nil
     entry.name name
     entry.email email if this_blog.link_to_author unless email.blank?
   end
-
   if item.is_a?(Note)
     entry.title item.body, "type"=>"html"
   else

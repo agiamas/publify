@@ -30,4 +30,4 @@ bin/
 /themes/*
 !/themes/bootstrap
 !/themes/typographic
-.idea/
+.idea/*
