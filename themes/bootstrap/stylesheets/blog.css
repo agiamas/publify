@@ -3,8 +3,8 @@ body{font-family: 'Open Sans', sans-serif;}
 .blog .mainContainer a:hover{text-decoration:none;}
 img.careacross-center{display:block;margin:0px auto;}
 /*============================================================== SIDEBAR WIDGETS start ==============================================================*/
-.blog .mainContainer .mainNav{float:left;margin:0px 0px 50px 0px;}
-.blog .mainContainer .mainNav h3.sidebar-title{color: #333333;font-size: 15px;font-weight: bold;margin: 0 0 7px;}
+.blog .mainContainer .mainNav{float:left;margin:0px 50px 0px 0px;}
+.blog .mainContainer .mainNav h3.sidebar-title,.blog .mainContainer .mainNav h3{color: #333333;font-size: 15px;font-weight: bold;margin: 0 0 7px;}
 .blog .mainContainer .mainNav ul{margin:0px 0px 30px 0px;padding:0;list-style:none;}
 .blog .mainContainer .mainNav li{font-size:13px;line-height:13px;border-bottom:1px solid #e7e6e6;}
 .blog .mainContainer .mainNav li:last-child{border:none;}
@@ -14,10 +14,10 @@ img.careacross-center{display:block;margin:0px auto;}
 .blog .mainContainer .mainNav li a:hover span.icon, .widget.list li.selected a span.icon{background-position:-6px -92px;}
 /*============================================================== SIDEBAR WIDGETS end ==============================================================*/
 
-+/*============================================================== ARTICLES start ==============================================================*/
+/*============================================================== ARTICLES start ==============================================================*/
 .careacross-article{}
-.careacross-article h1.page-header{font-size:26px;color:#333;font-weight:600;}
-.careacross-article h1.page-header a{color:#333;text-decoration:none;}
+.careacross-article h2.page-header{font-size:26px;color:#333;font-weight:600;margin-top:0;}
+.careacross-article h2.page-header a{color:#333;text-decoration:none;}
 .careacross-article p{color:#747474;font-size:13px;}
 .careacross-article a{color:#3C84B9;}
 .careacross-article a:hover{text-decoration:none;}
