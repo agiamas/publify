@@ -10,7 +10,6 @@ xml.rss "version" => "2.0", "xmlns:dc" => "http://purl.org/dc/elements/1.1/",
     xml.atom :link, :href => request.url, :rel => 'self', :type => 'application/rss+xml'
     xml.language this_blog.lang.gsub("_", "-").downcase
     xml.ttl "40"
-    puts this_blog.blog_subtitle.inspect
     xml.description this_blog.blog_subtitle
 
     @articles.each do |item|
