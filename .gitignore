@@ -1,5 +1,8 @@
 config/mail.yml
 config/secret.token
+Gemfile
+Gemfile.lock
+.gitignore
 *.log
 *~
 db/*.sqlite*
