@@ -237,7 +237,7 @@ module ApplicationHelper
 	<meta property="og:description" content="' + article_excerpt + '">
 	<meta property="og:type" content="article">
 	<meta property="og:url" content="' + url + '">
-	<!--<meta property="og:image" content="http://www.your-site.com/image.jpg">-->
+	<meta property="og:image" content="http://www.careacross.com/assets/logo.png">
 	<meta property="og:site_name" content="Care Across">
 	<meta property="fb:admins" content="4809999">
 
@@ -246,12 +246,12 @@ module ApplicationHelper
 	<meta name="twitter:url" content="' + url + '">
 	<meta name="twitter:title" content="' + article_title + '">
 	<meta name="twitter:description" content="' + article_excerpt + '">
-	<!--<meta name="twitter:image" content="http://example.com/image.jpg">-->
+	<meta name="twitter:image" content="http://www.careacross.com/assets/logo.png">
 
 	<!-- Google +  -->
 	<meta itemprop="name" content="' + article_title + '">
 	<meta itemprop="description" content="' + article_excerpt + '">
-	<!--<meta itemprop="image" content="http://www.example.com/image.jpg">-->
+	<meta itemprop="image" content="http://www.careacross.com/assets/logo.png">
   '
   end
 
