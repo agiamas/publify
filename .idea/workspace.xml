@@ -94,7 +94,7 @@
       <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="48" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.8006644">
+            <state line="66" column="114" selection-start="3474" selection-end="3501" vertical-scroll-proportion="0.5813953">
               <folding />
             </state>
           </provider>
@@ -785,13 +785,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/articles/_article_excerpt.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/_protected_article_content.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
@@ -844,11 +837,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/care-across-logo-medium.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="13" selection-start="283" selection-end="283" vertical-scroll-proportion="-1.2258065">
@@ -884,9 +872,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/care-across-logo-medium.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/care-across-logo-medium.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="48" selection-start="2585" selection-end="2585" vertical-scroll-proportion="0.8006644">
+        <state line="66" column="114" selection-start="3474" selection-end="3501" vertical-scroll-proportion="0.5813953">
           <folding />
         </state>
       </provider>

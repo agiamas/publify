@@ -34,7 +34,7 @@
      url = @article.permalink_url(nil, false)
      body = Nokogiri::HTML( @article.body )
      url_image = body.css('img#social_image')
-     social_url_image = url_image[0]? url_image[0].attr('src') : "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.jpg"
+     social_url_image = url_image[0]? url_image[0].attr('src') : "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png"
    else
      article_excerpt = "Read More"
      url = "http://blog.careacross.com"
@@ -45,7 +45,7 @@
 <meta property="og:description" content="<%=article_excerpt%>">
 <meta property="og:type" content="article">
 <meta property="og:url" content="<%=url%>">
-<meta property="og:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.jpg">
+<meta property="og:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png">
 <meta property="og:image:height" content="500" />
 <meta property="og:image:width" content="500" />
 <meta property="og:image" content="<%=social_url_image%>">
@@ -59,11 +59,11 @@
 <meta name="twitter:url" content="<%=url%>">
 <meta name="twitter:title" content="<%=article_title%>">
 <meta name="twitter:description" content="<%=article_excerpt%>">
-<meta name="twitter:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.jpg">
+<meta name="twitter:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png">
 <meta name="twitter:image" content="<%=social_url_image%>">
 <!-- Google +  -->
 <meta itemprop="name" content="<%=article_title%>">
 <meta itemprop="description" content="<%=article_excerpt%>">
-<meta itemprop="image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.jpg">
+<meta itemprop="image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png">
 <meta itemprop="image" content="<%=social_url_image%>">
 
