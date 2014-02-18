@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,7 +62,7 @@
     <file path="/_protected_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709978048" ignored="false" />
     <file path="/articles_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712074687" ignored="false" />
     <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392716543017" ignored="false" />
-    <file path="/_page_header.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392717425195" ignored="false" />
+    <file path="/_page_header.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392722198313" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_page_header.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-3.177215">
+            <state line="44" column="117" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.053380784">
               <folding />
             </state>
           </provider>
@@ -109,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_meta.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_meta.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.7580645">
+            <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-6.9">
               <folding />
             </state>
           </provider>
@@ -168,8 +168,8 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
       </list>
     </option>
   </component>
@@ -888,16 +888,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-3.177215">
+        <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="-6.9">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.7580645">
+        <state line="44" column="117" selection-start="2244" selection-end="2244" vertical-scroll-proportion="0.053380784">
           <folding />
         </state>
       </provider>
