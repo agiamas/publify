@@ -2,21 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392623413226" ignored="false" />
+    <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709624074" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
-    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392647510336" ignored="false" />
+    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392713673921" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
-    <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392623646333" ignored="false" />
-    <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392033744298" ignored="false" />
+    <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392713621578" ignored="false" />
+    <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709933694" ignored="false" />
     <file path="/_images.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392026428080" ignored="false" />
-    <file path="/read.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392281019180" ignored="false" />
+    <file path="/read.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392714886832" ignored="false" />
     <file path="/index.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392034137790" ignored="false" />
-    <file path="$PROJECT_DIR$/app/views/layouts/administration.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040597151" ignored="false" />
     <file path="/Gemfile" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392216170262" ignored="false" />
     <file path="/config.js" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043649374" ignored="false" />
     <file path="/storage.yml" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392048054703" ignored="false" />
@@ -49,17 +53,20 @@
     <file path="/application_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392217817920" ignored="false" />
     <file path="$PROJECT_DIR$/../pure-lowlands-8668/app/controllers/sessions_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392218497974" ignored="false" />
     <file path="/sessions_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392218495651" ignored="false" />
-    <file path="/_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392289386018" ignored="false" />
-    <file path="/_full_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392280753464" ignored="false" />
+    <file path="/_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392713378041" ignored="false" />
+    <file path="/_full_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712382114" ignored="false" />
     <file path="/_comment.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392285471370" ignored="false" />
     <file path="/blog.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380646818" ignored="false" />
-    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392649142313" ignored="false" />
+    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712277855" ignored="false" />
     <file path="/index_rss_feed.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392632493509" ignored="false" />
     <file path="/_rss_item_article.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392634092285" ignored="false" />
     <file path="/article.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392633059943" ignored="false" />
     <file path="/_atom_item_article.atom.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392641570501" ignored="false" />
     <file path="/atom_feed_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392639708752" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392645394975" ignored="false" />
+    <file path="/_protected_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709978048" ignored="false" />
+    <file path="/articles_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712074687" ignored="false" />
+    <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392714582829" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,82 +86,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="default.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="5" selection-start="2918" selection-end="2918" vertical-scroll-proportion="-4.6666665">
+            <state line="9" column="64" selection-start="471" selection-end="471" vertical-scroll-proportion="0.4090909">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_rss_feed.rss.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/index_rss_feed.rss.builder">
+      <file leaf-file-name="read.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-4.1538463">
+            <state line="11" column="47" selection-start="518" selection-end="518" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_atom_feed.atom.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/index_atom_feed.atom.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback_rss_feed.rss.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/articles/feedback_rss_feed.rss.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_rss_item_article.rss.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_rss_item_article.rss.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="37" selection-start="496" selection-end="520" vertical-scroll-proportion="-8.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_atom_item_article.atom.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-4.769231">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_atom_header.atom.builder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_header.atom.builder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_comment.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_meta.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_meta.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.69072163">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="173" column="19" selection-start="5625" selection-end="5625" vertical-scroll-proportion="-7.6923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="55" selection-start="721" selection-end="757" vertical-scroll-proportion="-7.423077">
               <folding />
             </state>
           </provider>
@@ -178,22 +149,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/storage.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-        <option value="$PROJECT_DIR$/app/views/articles/_full_article_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/stylesheets/blog.css" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index_rss_feed.rss.builder" />
         <option value="$PROJECT_DIR$/app/views/articles/feedback_rss_feed.rss.builder" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_rss_item_article.rss.builder" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_view/helpers/atom_feed_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder" />
+        <option value="$PROJECT_DIR$/app/views/articles/_article.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/read.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/_article_content.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/_full_article_content.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/articles/_protected_article_content.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
       </list>
     </option>
   </component>
@@ -235,7 +206,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -264,7 +235,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,6 +254,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -321,24 +314,68 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="41" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="45" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="52" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="50" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="414" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="437" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="414" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="54" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="53" />
     <property name="GoToClass.includeJavaFiles" value="false" />
@@ -353,8 +390,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyIdeSdkConfigurable" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -689,14 +726,14 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32051283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3006483" sideWeight="0.6789137" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30551052" sideWeight="0.67467946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253205" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,117 +803,119 @@
     <MESSAGE value="reverted gemfile&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/content_base.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_controller/metal/redirecting.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="6" selection-start="1649" selection-end="1649" vertical-scroll-proportion="0.24064171">
+        <state line="104" column="13" selection-start="5351" selection-end="5351" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_dispatch/routing/url_for.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="17" selection-start="5220" selection-end="5224" vertical-scroll-proportion="7.3880596">
+        <state line="147" column="21" selection-start="6785" selection-end="6785" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_rss_item_article.rss.builder">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_controller/metal.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="37" selection-start="496" selection-end="520" vertical-scroll-proportion="-8.076923">
+        <state line="187" column="55" selection-start="5353" selection-end="5353" vertical-scroll-proportion="0.4945946">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="16" selection-start="3005" selection-end="3005" vertical-scroll-proportion="0.41736695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_article_excerpt.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_confirm.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_protected_article_content.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_header.atom.builder">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_full_article_content.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index_rss_feed.rss.builder">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_article_content.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="552" selection-end="552" vertical-scroll-proportion="-4.1538463">
+        <state line="5" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.21489972">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/articles/index_atom_feed.atom.builder">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/_article.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="29" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0">
+        <state line="3" column="32" selection-start="207" selection-end="207" vertical-scroll-proportion="0.12893982">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/i18n-0.6.9/lib/i18n/exceptions.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/articles/read.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="6" selection-start="3070" selection-end="3070" vertical-scroll-proportion="0.3313433">
+        <state line="16" column="0" selection-start="625" selection-end="625" vertical-scroll-proportion="0.6876791">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/fog-1.19.0/lib/fog/google/parsers/storage/access_control_list.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_view/helpers/url_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="806" selection-end="806" vertical-scroll-proportion="0.33333334">
+        <state line="230" column="10" selection-start="10850" selection-end="10850" vertical-scroll-proportion="0.33157894">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_view/helpers/atom_feed_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="178" column="12" selection-start="7501" selection-end="7501" vertical-scroll-proportion="0.33240223">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="5" selection-start="2918" selection-end="2918" vertical-scroll-proportion="-4.6666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/comments/_comment.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0">
+        <state line="173" column="19" selection-start="5625" selection-end="5625" vertical-scroll-proportion="-7.6923075">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="6" selection-start="2608" selection-end="2608" vertical-scroll-proportion="2.9733727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_atom_item_article.atom.builder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="7" selection-start="1637" selection-end="1637" vertical-scroll-proportion="-4.769231">
+        <state line="28" column="55" selection-start="721" selection-end="757" vertical-scroll-proportion="-7.423077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="1253" selection-end="1253" vertical-scroll-proportion="0.69072163">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="47" selection-start="518" selection-end="518" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="64" selection-start="471" selection-end="471" vertical-scroll-proportion="0.4090909">
           <folding />
         </state>
       </provider>
