@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="publify.iws" />
@@ -10,12 +11,12 @@
     <file path="/Dummy.txt" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709624074" ignored="false" />
     <file path="/style.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391762308335" ignored="false" />
     <file path="/recaptcha.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1391763314808" ignored="false" />
-    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392713673921" ignored="false" />
+    <file path="/a.dummy" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392716892736" ignored="false" />
     <file path="/_form.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392040709900" ignored="false" />
     <file path="/default.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392713621578" ignored="false" />
     <file path="/_article.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709933694" ignored="false" />
     <file path="/_images.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392026428080" ignored="false" />
-    <file path="/read.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392714886832" ignored="false" />
+    <file path="/read.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392717045615" ignored="false" />
     <file path="/index.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392034137790" ignored="false" />
     <file path="/Gemfile" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392216170262" ignored="false" />
     <file path="/config.js" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392043649374" ignored="false" />
@@ -63,6 +64,7 @@
     <file path="/_protected_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709978048" ignored="false" />
     <file path="/articles_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712074687" ignored="false" />
     <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392716543017" ignored="false" />
+    <file path="/_page_header.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392717223393" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +87,16 @@
       <file leaf-file-name="default.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="64" selection-start="471" selection-end="471" vertical-scroll-proportion="-2.7">
+            <state line="81" column="50" selection-start="3422" selection-end="3426" vertical-scroll-proportion="-2.04">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="35" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.57295376">
               <folding />
             </state>
           </provider>
@@ -108,7 +119,7 @@
       <file leaf-file-name="read.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="518" selection-end="518" vertical-scroll-proportion="-6.875">
+            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -132,10 +143,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="253" column="81" selection-start="8720" selection-end="8720" vertical-scroll-proportion="0.6797583">
+            <state line="217" column="13" selection-start="6880" selection-end="6901" vertical-scroll-proportion="-6.3461537">
               <folding />
             </state>
           </provider>
@@ -159,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/articles/index_rss_feed.rss.builder" />
         <option value="$PROJECT_DIR$/app/views/articles/feedback_rss_feed.rss.builder" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_rss_item_article.rss.builder" />
@@ -173,8 +183,9 @@
         <option value="$PROJECT_DIR$/app/views/articles/_protected_article_content.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
       </list>
     </option>
   </component>
@@ -684,14 +695,14 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32051283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32051283" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30551052" sideWeight="0.67467946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30551052" sideWeight="0.67948717" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253205" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32051283" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3253205" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3258786" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -766,13 +777,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="55" selection-start="5353" selection-end="5353" vertical-scroll-proportion="0.4945946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-3.2.16/lib/abstract_controller/rendering.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="16" selection-start="3005" selection-end="3005" vertical-scroll-proportion="0.41736695">
@@ -836,25 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="471" selection-end="471" vertical-scroll-proportion="-2.7">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="518" selection-end="518" vertical-scroll-proportion="-6.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/images/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/bootstrap/images/images.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -867,9 +852,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="50" selection-start="3422" selection-end="3426" vertical-scroll-proportion="-2.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="81" selection-start="8720" selection-end="8720" vertical-scroll-proportion="0.6797583">
+        <state line="217" column="13" selection-start="6880" selection-end="6901" vertical-scroll-proportion="-6.3461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="35" selection-start="1553" selection-end="1553" vertical-scroll-proportion="0.57295376">
           <folding />
         </state>
       </provider>
