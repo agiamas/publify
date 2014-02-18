@@ -34,7 +34,7 @@
      url = @article.permalink_url(nil, false)
      body = Nokogiri::HTML( @article.body )
      url_image = body.css('img#social_image')
-     social_url_image = url_image[0].attr('src')
+     social_url_image = url_image[0]? url_image[0].attr('src') : "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.jpg"
    else
      article_excerpt = "Read More"
      url = "http://blog.careacross.com"
