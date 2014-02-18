@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" afterPath="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" afterPath="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,7 +52,7 @@
     <file path="/_full_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712382114" ignored="false" />
     <file path="/_comment.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392285471370" ignored="false" />
     <file path="/blog.css" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392380646818" ignored="false" />
-    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392721211544" ignored="false" />
+    <file path="/_meta.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392721850767" ignored="false" />
     <file path="/index_rss_feed.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392632493509" ignored="false" />
     <file path="/_rss_item_article.rss.builder" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392634092285" ignored="false" />
     <file path="/article.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392633059943" ignored="false" />
@@ -93,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_page_header.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.8932384">
+            <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-3.177215">
               <folding />
             </state>
           </provider>
@@ -111,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_meta.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_meta.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-7.2">
+            <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.7580645">
               <folding />
             </state>
           </provider>
@@ -170,8 +168,8 @@
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/read.html.erb" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/default.html.erb" />
-        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_page_header.html.erb" />
+        <option value="$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb" />
       </list>
     </option>
   </component>
@@ -890,16 +888,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="1145" selection-end="1145" vertical-scroll-proportion="-7.2">
+        <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="-3.177215">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
+    <entry file="file://$PROJECT_DIR$/themes/bootstrap/views/articles/_meta.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="38" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.8932384">
+        <state line="23" column="45" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.7580645">
           <folding />
         </state>
       </provider>
