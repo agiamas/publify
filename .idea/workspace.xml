@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c4f6bc43-43a3-47eb-89b0-eeec48078602" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,7 +62,7 @@
     <file path="$PROJECT_DIR$/log/development.log" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392645394975" ignored="false" />
     <file path="/_protected_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709978048" ignored="false" />
     <file path="/articles_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712074687" ignored="false" />
-    <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392715638728" ignored="false" />
+    <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392716543017" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +135,7 @@
       <file leaf-file-name="application_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="239" column="2" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.04531722">
+            <state line="253" column="81" selection-start="8720" selection-end="8720" vertical-scroll-proportion="0.6797583">
               <folding />
             </state>
           </provider>
@@ -868,7 +869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="239" column="2" selection-start="7948" selection-end="7948" vertical-scroll-proportion="0.04531722">
+        <state line="253" column="81" selection-start="8720" selection-end="8720" vertical-scroll-proportion="0.6797583">
           <folding />
         </state>
       </provider>
