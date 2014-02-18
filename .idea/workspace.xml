@@ -94,7 +94,7 @@
       <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="44" selection-start="2736" selection-end="2739" vertical-scroll-proportion="0.43189368">
+            <state line="49" column="32" selection-start="2519" selection-end="2576" vertical-scroll-proportion="0.28239202">
               <folding />
             </state>
           </provider>
@@ -884,7 +884,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="44" selection-start="2736" selection-end="2739" vertical-scroll-proportion="0.43189368">
+        <state line="49" column="32" selection-start="2519" selection-end="2576" vertical-scroll-proportion="0.28239202">
           <folding />
         </state>
       </provider>
