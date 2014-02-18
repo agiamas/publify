@@ -62,7 +62,7 @@
     <file path="/_protected_article_content.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392709978048" ignored="false" />
     <file path="/articles_controller.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392712074687" ignored="false" />
     <file path="/application_helper.rb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392724255189" ignored="false" />
-    <file path="/_page_header.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392728880781" ignored="false" />
+    <file path="/_page_header.html.erb" changelist="c4f6bc43-43a3-47eb-89b0-eeec48078602" time="1392729872630" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <file leaf-file-name="_page_header.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.8504983">
+            <state line="48" column="31" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.8006644">
               <folding />
             </state>
           </provider>
@@ -886,7 +886,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/shared/_page_header.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="2536" selection-end="2536" vertical-scroll-proportion="0.8504983">
+        <state line="48" column="31" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.8006644">
           <folding />
         </state>
       </provider>
