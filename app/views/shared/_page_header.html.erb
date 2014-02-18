@@ -27,31 +27,34 @@
 <!-- Social sharing opengraph tags -->
 <%= meta_tag 'og:site_name', this_blog.blog_name %>
 <%
+
    article_title = @article ? @article.title : @page_title
    unless @article.nil? or @article.excerpt.nil?
      article_excerpt = @article.excerpt
+     url = @article.permalink_url(nil, false)
    else
      article_excerpt = "Read More"
+     url = "http://blog.careacross.com"
    end
 %>
 <!-- Facebook  -->
-<meta property="og:title" content="'<%=article_title%> '">
-<meta property="og:description" content="' <%=article_excerpt%> '">
+<meta property="og:title" content="<%=article_title%> ">
+<meta property="og:description" content=" <%=article_excerpt%> ">
 <meta property="og:type" content="article">
-<meta property="og:url" content="' + url + '">
+<meta property="og:url" content=" <%=url%> ">
 <meta property="og:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
 <meta property="og:site_name" content="Care Across">
 <meta property="fb:admins" content="4809999">
 
 <!-- Twitter  -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:url" content="' + url + '">
-<meta name="twitter:title" content="' <%=article_title%> '">
-<meta name="twitter:description" content="' <%=article_excerpt%> '">
+<meta name="twitter:url" content=" <%=url%> ">
+<meta name="twitter:title" content=" <%=article_title%> ">
+<meta name="twitter:description" content=" <%=article_excerpt%> ">
 <meta name="twitter:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
 
 <!-- Google +  -->
-<meta itemprop="name" content="' <%=article_title%> '">
-<meta itemprop="description" content="' <%=article_excerpt%> '">
+<meta itemprop="name" content=" <%=article_title%> ">
+<meta itemprop="description" content=" <%=article_excerpt%> ">
 <meta itemprop="image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
 
