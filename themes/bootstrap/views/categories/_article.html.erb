@@ -1,10 +1,12 @@
-<article id="article-<%= article.id %>" class='h-entry hentry h-as-note careacross-article'>
-  <h2 class='page-header p-name entry-title'><%= link_to_permalink(article, article.title) %></h2>
-  <div class='e-content entry-content article careacross-article'>
-    <%= render 'articles/protected_article_content', { :article => article } %>
-    <%= render 'articles/meta', article: article %>
+<article id="article-<%= article.id %>" class='h-entry hentry h-as-note articleContainer'>
+  <h2 class='page-header p-name entry-title article_title'><%= link_to_permalink(article, article.title) %></h2>
+  <div class="article_content">
+		<div class='e-content entry-content article'>
+			<%= render 'articles/protected_article_content', { :article => article } %>
+			<%= render 'articles/meta', article: article %>
+	  </div>
   </div>
-  <div class='comments'>
+  <div class='comments article_comments'>
     <%= render 'articles/comment_counter', article: article %>
   </div>
-</article0>
+</article>
