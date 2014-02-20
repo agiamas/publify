@@ -215,46 +215,6 @@ module ApplicationHelper
     stop
   end
 
-  def render_head_opengraph(article, url)
-#article content:#<Article id: 3, type: "Article", title: "Long form excerpt test",
-# author: "admin", body: "<p>Long Form&nbsp;Long Form&nbsp;Long Form&nbsp;Lon...", extended: "",
-# excerpt: "Short Form", created_at: "2014-02-17 10:17:26", updated_at: "2014-02-17 10:17:26",
-# user_id: 1, permalink: "long-form-excerpt-test", guid: "e97262e5-f1b0-4d3c-901d-fcb2344225b4",
-# text_filter_id: 1, whiteboard: nil, name: nil, published: true, allow_pings: false, allow_comments: true,
-# published_at: "2014-02-17 10:17:00", state: "published", parent_id: nil, settings: {"password"=>""},
-# post_type: "read">
-
-  puts "long url:" + url
-  article_title = article.title
-  unless article.excerpt.nil?
-    article_excerpt = article.excerpt
-  else
-    article_excerpt = "Read More"
-  end
-
-    return ' <!-- Facebook  -->
-	<meta property="og:title" content="' +article_title + '">
-	<meta property="og:description" content="' + article_excerpt + '">
-	<meta property="og:type" content="article">
-	<meta property="og:url" content="' + url + '">
-	<meta property="og:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
-	<meta property="og:site_name" content="Care Across">
-	<meta property="fb:admins" content="4809999">
-
-	<!-- Twitter  -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:url" content="' + url + '">
-	<meta name="twitter:title" content="' + article_title + '">
-	<meta name="twitter:description" content="' + article_excerpt + '">
-	<meta name="twitter:image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
-
-	<!-- Google +  -->
-	<meta itemprop="name" content="' + article_title + '">
-	<meta itemprop="description" content="' + article_excerpt + '">
-	<meta itemprop="image" content="http://blog-lowlands-8668-staging.herokuapp.com/images/logo.png">
-  '
-  end
-
   private
 
   def feed_for(type)
