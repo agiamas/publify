@@ -15,9 +15,9 @@
                         end
      @description = @article.excerpt
    else
-     article_excerpt = "Read More"
      url = this_blog.base_url
      @description = "CareAcross will give patients and caregivers the best way to fight cancer beyond their hospital, from diagnosis to long-term care: support, news, tools & advice"
+     article_excerpt = @description
      social_url_image = logo_location %>
     <link rel="canonical" href="<%= this_blog.base_url %>" />
 <%
