@@ -1,4 +1,4 @@
-body{font-family: 'Open Sans', sans-serif;}
+body{font-family: 'Open Sans', sans-serif;width:100%;min-width:980px;}
 .blog .mainContainer a{color:#3C84B9;}
 .blog .mainContainer a:hover{text-decoration:none;}
 img.careacross-center{display:block;margin:0px auto;}
@@ -41,4 +41,5 @@ img.careacross-center{display:block;margin:0px auto;}
 
 .list .articleContainer .article_title{font-size:17px;line-height:22px;}
 h2.page-header.categoryTitle{margin-top:0;padding:0;}
+
 /*============================================================== ARTICLES end ==============================================================*/
