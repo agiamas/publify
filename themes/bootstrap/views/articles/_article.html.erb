@@ -1,4 +1,3 @@
-<!-- START OF ARTICLE -->
 <article id="article-<%= article.id %>" class='h-entry hentry h-as-note articleContainer'>
   <h2 class='page-header p-name entry-title article_title'><%= (controller.controller_name == 'redirect') ? article.title : link_to_permalink(article, article.title) %></h2>
 
@@ -13,4 +12,3 @@
     <%= render 'articles/comment_counter', article: article %>
   </div>
 </article>
-<!-- END OF ARTICLE -->
