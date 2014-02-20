@@ -1,7 +1,7 @@
 <!-- Social sharing opengraph tags -->
 <!-- Opengraph and description links -->
 <%
-   logo_location = "https://s3.amazonaws.com/careacross-dev-us/Care-Across-843x442.jpg"
+   logo_location = ""
    article_title = @article ? @article.title : @page_title
    unless @article.nil? or @article.excerpt.nil?
      article_excerpt = @article.excerpt
@@ -57,11 +57,6 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="<%= url %>">
 <meta property="og:image" content="<%= social_url_image %>">
-<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/8/Care-Across-403x250-magenta.png"> <!--magenta-->
-<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/9/Care-Across-843x617-yellow.png"> <!-- yellow-->
-<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/11/Care-Across-843x442-grey.png"> <!-- grey -->
-
-<meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/careacross-dev/Care-Across-403x250.jpg"> <!-- 403*250 -->
 <meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/careacross-dev/Care-Across-843x442.png"> <!-- 843*442 -->
 
 
@@ -74,7 +69,7 @@
 <meta name="twitter:title" content="<%= article_title %>">
 <meta name="twitter:description" content="<%= article_excerpt %>">
 <meta name="twitter:image" content="<%= social_url_image %>">
-<meta name=”twitter:site” content=”@CareAcross”/>
+<meta name="twitter:site" content="@CareAcross"/>
 <!-- Google +  -->
 <meta itemprop="name" content="<%= article_title %>">
 <meta itemprop="description" content="<%= article_excerpt %>">
