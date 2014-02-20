@@ -1,7 +1,7 @@
 <!-- Social sharing opengraph tags -->
 <!-- Opengraph and description links -->
 <%
-
+   logo_location = "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png"
    article_title = @article ? @article.title : @page_title
    unless @article.nil? or @article.excerpt.nil?
      article_excerpt = @article.excerpt
@@ -11,15 +11,18 @@
      social_url_image = if url_image[0] then
                           url_image[0].attr('src')
                         else
-                          "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-small.jpg"
+                          logo_location
                         end
      @description = @article.excerpt
    else
      article_excerpt = "Read More"
-     url = "http://blog.careacross.com"
+     url = this_blog.base_url
      @description = "CareAcross will give patients and caregivers the best way to fight cancer beyond their hospital, from diagnosis to long-term care: support, news, tools & advice"
-     social_url_image = "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-small.jpg"
+     social_url_image = logo_location %>
+    <link rel="canonical" href="<%= this_blog.base_url %>" />
+<%
    end
+   puts this_blog.inspect
 %>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <%= meta_tag 'ICBM', this_blog.geourl_location unless this_blog.geourl_location.blank? %>
