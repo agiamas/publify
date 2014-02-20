@@ -1,5 +1,5 @@
 <h2 class='page-header categoryTitle'><%= link_to @grouping.name, @grouping.permalink_url %></h2>
-<div class='hfeed'>
+<div class='hfeed list'>
   <%= render :partial => 'article', :collection => @articles %>  
 </div>
 <div id='paginate'>
