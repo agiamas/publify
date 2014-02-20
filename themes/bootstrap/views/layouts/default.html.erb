@@ -92,6 +92,10 @@
         }
 
     }(document));
+
+    $(window).scroll(function(){
+        $('header .siteWidth').css('left',-$(window).scrollLeft() - 20);
+    });
 </script>
 <!-- viewport for mobile devices END -->
 </body>
