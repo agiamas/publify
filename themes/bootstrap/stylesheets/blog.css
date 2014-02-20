@@ -19,14 +19,6 @@ img.careacross-center{display:block;margin:0px auto;}
 .articleContainer .article_title{color: #333333;font-size: 26px;font-weight: bold;margin: 0;line-height:32px;padding:0;border-bottom:none;}
 .articleContainer .article_title a{color:#333;text-decoration:none;}
 .articleContainer .article_content{color:#747474;font-size:13px;}
-.articleContainer .article_content  h2{font-size:26px;color:#333;font-weight:600;}
-.articleContainer .article_content  h3{font-size:20px;color:#333;font-weight:600;}
-.articleContainer .article_content  h4{font-size:16px;color:#333;font-weight:600;margin:0;}
-.articleContainer .article_content  h5{font-size:14px;color:#333;font-weight:600;margin:0;}
-.articleContainer .article_content  h6{font-size:14px;color:#333;}
-.articleContainer .article_content  h6 a, .articleContainer .article_content  h5 a, .articleContainer .article_content h4 a, .articleContainer .article_content h3 a, .articleContainer .article_content h2 a, .articleContainer .article_content h1 a{color:#333;}
-.articleContainer .article_content h6 a:hover, .articleContainer .article_content h5 a:hover, .articleContainer .article_content h4 a:hover, .articleContainer .article_content h3 a:hover, .articleContainer .article_content h2 a:hover, .articleContainer .article_content h1 a:hover{text-decoration:none;}
-
 .articleContainer .article_content a{color:#3C84B9;text-decoration:underline;}
 .articleContainer .article_content a:hover{text-decoration:none;}
 .articleContainer .article_content em , .articleContainer .article_content i{font-style:italic;}
