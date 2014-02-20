@@ -1,7 +1,7 @@
 <!-- Social sharing opengraph tags -->
 <!-- Opengraph and description links -->
 <%
-   logo_location = "http://blog-lowlands-8668-staging.herokuapp.com/images/care-across-logo-medium.png"
+   logo_location = "https://s3-eu-west-1.amazonaws.com/careacross-dev/Care-Across-843x442.png"
    article_title = @article ? @article.title : @page_title
    unless @article.nil? or @article.excerpt.nil?
      article_excerpt = @article.excerpt
@@ -57,6 +57,14 @@
 <meta property="og:type" content="article">
 <meta property="og:url" content="<%= url %>">
 <meta property="og:image" content="<%= social_url_image %>">
+<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/8/Care-Across-403x250-magenta.png"> <!--magenta-->
+<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/9/Care-Across-843x617-yellow.png"> <!-- yellow-->
+<meta property="og:image" content="https://careacross-dev-us.s3.amazonaws.com/files/resource/11/Care-Across-843x442-grey.png"> <!-- grey -->
+
+<meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/careacross-dev/Care-Across-403x250.png"> <!-- 403*250 -->
+<meta property="og:image" content="https://s3-eu-west-1.amazonaws.com/careacross-dev/Care-Across-843x442.png"> <!-- 843*442 -->
+
+
 <meta property="og:site_name" content="Care Across">
 <meta property="fb:admins" content="4809999">
 
