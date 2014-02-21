@@ -1,9 +1,9 @@
 <!-- Social sharing opengraph tags -->
 <!-- Opengraph and description links -->
 <%
-   logo_url_facebook = this_blog.base_url + "/images/care-across-logo-small.png"
-   logo_url_twitter  = this_blog.base_url + "/images/care-across-logo-small.png"
-   logo_url_google   = this_blog.base_url + "/images/care-across-logo-small.png"
+   logo_url_facebook = this_blog.base_url + "/images/care-across-logo-medium.png"  # 844 * 618
+   logo_url_twitter  = this_blog.base_url + "/images/care-across-logo-small.png"   # 120 * 120
+   logo_url_google   = this_blog.base_url + "/images/care-across-logo-medium.png"  # 844 * 618
    article_title = @article ? @article.title : @page_title
    unless @article.nil? or @article.excerpt.nil?
      article_excerpt = strip_tags @article.excerpt
