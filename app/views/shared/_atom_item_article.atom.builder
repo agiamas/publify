@@ -1,11 +1,12 @@
-feed.entry item, :id => "urn:uuid:#{item.guid}", :url => item.permalink_url do |entry|
+feed.entry item, :id => "urn:uuid:#{item.guid}", :published => item.published_at, :updated => item.published_at, :url => item.permalink_url do |entry|
+
+
   entry.author do
     name = item.user.name rescue item.author
     email = item.user.email rescue nil
     entry.name name
     entry.email email if this_blog.link_to_author unless email.blank?
   end
-
   if item.is_a?(Note)
     entry.title item.body, "type"=>"html"
   else
@@ -40,7 +41,7 @@ feed.entry item, :id => "urn:uuid:#{item.guid}", :url => item.permalink_url do |
     if item.password_protected?
       "<p>This article is password protected. Please <a href='#{item.permalink_url}'>fill in your password</a> to read it</p>"
     elsif this_blog.hide_extended_on_rss
-      html(item, :body)
+      if item.excerpt.length>0 then item.excerpt else html(item, :body) end
     else
       html(item, :all)
     end

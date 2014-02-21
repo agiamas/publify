@@ -1,5 +1,7 @@
 config/mail.yml
 config/secret.token
+Gemfile
+Gemfile.lock
 *.log
 *~
 db/*.sqlite*
@@ -28,4 +30,4 @@ bin/
 /themes/*
 !/themes/bootstrap
 !/themes/typographic
-.idea/
+.idea/*

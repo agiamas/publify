@@ -205,9 +205,8 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 1em;
+  line-height: 1.4;
   color: #333333;
   background-color: #ffffff;
 }
@@ -670,7 +669,7 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: 24px;
+  line-height: 1.4;
 }
 ul.unstyled,
 ol.unstyled {

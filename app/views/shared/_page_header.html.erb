@@ -1,26 +1,83 @@
-<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!-- Social sharing opengraph tags -->
+<!-- Opengraph and description links -->
+<%
+   logo_url_facebook = this_blog.base_url + "/images/care-across-logo-large.png"
+   logo_url_twitter  = this_blog.base_url + "/images/care-across-logo-large.png"
+   logo_url_google   = this_blog.base_url + "/images/care-across-logo-large.png"
+   article_title = @article ? @article.title : @page_title
+   unless @article.nil? or @article.excerpt.nil?
+     article_excerpt = strip_tags @article.excerpt
+     url = @article.permalink_url(nil, false)
+     body = Nokogiri::HTML(@article.body)
+     url_image = body.css('img#social_image')
+     social_url_image = if url_image[0] then
+                          url_image[0].attr('src')
+                        end
+     @description = @article.excerpt
+   else
+     url = this_blog.base_url
+     @description = "CareAcross will give patients and caregivers the best way to fight cancer beyond their hospital, from diagnosis to long-term care: support, news, tools & advice"
+     article_excerpt = @description
+     %>
+    <link rel="canonical" href="<%= this_blog.base_url %>" />
+<%
+   end
+if social_url_image then
+   %>
+    <meta property="og:image" content="<%= social_url_image %>"/>
+    <meta name="twitter:image" content="<%= social_url_image %>"/>
+    <meta itemprop="image" content="<%= social_url_image %>"/>
+<% end %>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 <%= meta_tag 'ICBM', this_blog.geourl_location unless this_blog.geourl_location.blank? %>
 <%= meta_tag 'description', @description unless @description.blank? %>
 <%= meta_tag 'robots', 'noindex, follow' if stop_index_robots? %>
-<%= meta_tag 'google-site-verification', this_blog.google_verification unless this_blog.google_verification.blank?%>
-<meta name="generator" content="Publify <%=PUBLIFY_VERSION%>" />
+<%= meta_tag 'google-site-verification', this_blog.google_verification unless this_blog.google_verification.blank? %>
+<meta name="generator" content="Publify <%= PUBLIFY_VERSION %>"/>
 <%= show_meta_keyword %>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<%= url_for :controller => '/xml', :action => 'rsd' %>" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="<%= url_for :controller => '/xml', :action => 'rsd' %>"/>
 <%- if feed_atom %>
-  <link rel="alternate" type="application/atom+xml" title="Atom" href="<%= feed_atom %>" />
+    <link rel="alternate" type="application/atom+xml" title="Atom" href="<%= feed_atom %>"/>
 <%- end %>
 <%- if feed_rss %>
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="<%= feed_rss %>" />
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="<%= feed_rss %>"/>
 <%- end %>
 <%= javascript_include_tag 'cookies', 'prototype', 'effects', 'builder', 'publify', :cache => true %>
 <%= stylesheet_link_tag 'coderay', 'user-styles', :cache => true %>
 <%= javascript_include_tag "lang/#{Localization.lang.to_s}" if File.exists? File.join(::Rails.root.to_s, 'public', 'lang', Localization.lang.to_s) %>
-<%= javascript_tag "window._token = '#{form_authenticity_token}'"%>
+<%= javascript_tag "window._token = '#{form_authenticity_token}'" %>
 <%= page_header_includes %>
-<%= use_canonical  if this_blog.use_canonical_url %>
+<%= use_canonical if this_blog.use_canonical_url %>
 <script type="text/javascript"><%= @content_for_script %></script>
 <%= this_blog.custom_tracking_field unless this_blog.custom_tracking_field.blank? %>
 <%= google_analytics %>
 
-<%= meta_tag 'og:site_name', this_blog.blog_name %>
-<%= meta_tag 'og:title', @article ? @article.title : @page_title %>
+
+
+
+<!-- Facebook  -->
+<meta property="og:title" content="<%= article_title %>"/>
+<meta property="og:description" content="<%= article_excerpt %>"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="<%= url %>"/>
+<meta property="og:image" content="<%= logo_url_facebook %>"/> <!-- 843*442 -->
+
+
+<meta property="og:site_name" content="Care Across"/>
+<meta property="fb:admins" content="4809999"/>
+
+<!-- Twitter  -->
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:url" content="<%= url %>"/>
+<meta name="twitter:title" content="<%= article_title %>"/>
+<meta name="twitter:description" content="<%= article_excerpt %>"/>
+<meta name="twitter:image" content="<%= logo_url_twitter %>"/>
+<meta name="twitter:site" content="@CareAcross"/>
+<!-- Google +  -->
+<meta itemprop="name" content="<%= article_title %>"/>
+<meta itemprop="description" content="<%= article_excerpt %>"/>
+<meta itemprop="image" content="<%= logo_url_google %>"/>
+<link rel="author" href="https://plus.google.com/b/103178555391213524490/103178555391213524490/posts"/>
+<link rel="publisher" href="https://plus.google.com/b/103178555391213524490/103178555391213524490"/>
+

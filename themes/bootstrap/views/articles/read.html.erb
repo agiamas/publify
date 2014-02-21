@@ -1,7 +1,10 @@
-<div class="article" id="article-<%= @article.id %>">
+<%#= render_head_opengraph(@article, @article.permalink_url(nil, false) )  %>
+<div class="article articleContainer read" id="article-<%= @article.id %>">
   <div class="careacross-article careacross-single">
-    <h1 class='page-header'><%= link_to_permalink(@article, @article.title) %></h1>
-    <%= @article.html(:body) %>
+    <h2 class='page-header article_title'><%= link_to_permalink(@article, @article.title) %></h2>
+    <div class="article_content">
+		<%= @article.html(:body) %>
+	</div>
     <%= @article.html(:extended) %>
   </div>
   <%= render 'articles/meta', article: @article %>
@@ -13,11 +16,13 @@
   <!--<%# end %>-->
 
   <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
-      <h3 class="feedback" id="commentaires">
-        <%= render 'articles/comment_counter', article: @article %>
-        <a href="#commentform" ref="nofollow"> &raquo;</a>
-      </h3>
-      <%= render "articles/comment_list" %>
+      <div class="article_comments">
+		<h3 class="feedback" id="commentaires">
+			<%= render 'articles/comment_counter', article: @article %>
+			<a href="#commentform" ref="nofollow"> &raquo;</a>
+		</h3>
+		  <%= render "articles/comment_list" %>
+	  </div>
   <% end -%>
 
   <% if @article.allow_comments? %>

@@ -234,5 +234,4 @@ module ApplicationHelper
     end if flash
     output.join("<br />\n")
   end
-
 end
