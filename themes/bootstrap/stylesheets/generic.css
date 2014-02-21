@@ -43,11 +43,11 @@ footer .siteWidth{overflow:hidden;background-color:#3d3d3d;}
 footer .siteWidth ul{margin:0;padding:21px 0px;overflow:hidden;list-style:none;}
 footer ul.footerMenu{float:left;}
 footer ul.footerMenu li{float:left;padding:0px 22px 0px 0px;}
-footer ul.footerMenu li a{text-decoration:none;font-size:13px;color:#908a8a;}
+footer ul.footerMenu li a{text-decoration:none;font-size:15px;color:#908a8a;}
 footer ul.footerMenu li a:hover{color:#d2d2d2;}
 footer ul.social{float:right;overflow:hidden;}
 footer ul.social li{float:left;}
-footer ul.social li.footerLabel{text-decoration:none;font-size:13px;color:#908a8a;}
+footer ul.social li.footerLabel{text-decoration:none;font-size:15px;color:#908a8a;}
 footer ul.social li a{display:block;background:url("../../images/theme/images.png") no-repeat -0px -38px;}
 footer ul.social li.fb a{width:8px;height:17px;margin-left:20px;}
 footer ul.social li.fb a:hover{background-position:-0px -57px;}
