@@ -22,7 +22,7 @@ img.careacross-center{display:block;margin:0px auto;}
 .articleContainer .article_content a{color:#3C84B9;text-decoration:underline;}
 .articleContainer .article_content a:hover{text-decoration:none;}
 .articleContainer .article_content h2{font-size:26px;color:#333;font-weight:600;}
-.articleContainer .article_content h3{font-size:20px;color:#333;font-weight:600;}
+.articleContainer .article_content h3{font-size:20px;color:#333;font-weight:600;line-height:25px;}
 .articleContainer .article_content h4{font-size:16px;color:#333;font-weight:600;margin:0;}
 .articleContainer .article_content h5{font-size:14px;color:#333;font-weight:600;margin:0;}
 .articleContainer .article_content h6{font-size:14px;color:#333;}
@@ -38,6 +38,18 @@ img.careacross-center{display:block;margin:0px auto;}
 .articleContainer .article_content .meta p{margin:0;}
 .articleContainer .article_comments , .articleContainer.read  .article_comments{font-size:100%;margin-top:5px;}
 .articleContainer.read  .article_comments h3{margin:0;}
+
+
+#commentList{}
+#commentList li{margin-bottom:20px;} 
+#commentList li h4{margin:0;font-size:16px;}
+#commentList li p{margin:0;font-size:13px;}
+#commentList li hr{margin:5px 0 0 0;}
+
+#commentform{}
+#commentform h3{font-size:20px;line-height:25px;margin-bottom:5px;}
+#commentform h3 em,#commentform h3 i{font-style: italic;}
+
 
 .list .articleContainer .article_title{font-size:17px;line-height:22px;}
 h2.page-header.categoryTitle{margin-top:0;padding:0;}
