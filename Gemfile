@@ -42,7 +42,6 @@ group :development, :test do
 end
 
 gem 'unf'
-#gem 'bootstrap-wysihtml5-rails'
 
 # Install gems from each theme
 Dir.glob(File.join(File.dirname(__FILE__), 'themes', '**', "Gemfile")) do |gemfile|

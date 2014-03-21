@@ -33,6 +33,10 @@ img.careacross-center{display:block;margin:0px auto;}
 .articleContainer .article_content ul{list-style:outside;}
 .articleContainer .article_content ol{list-style:decimal;}
 .articleContainer .article_content li{color:#747474;font-size:13px;}
+.articleContainer .article_content table{border:1px solid #747474;}
+.articleContainer .article_content table tr td{padding:5px;border:1px solid #747474;}
+.articleContainer .article_content table tr td p{margin:5px 0;}
+
 .articleContainer .article_content .meta{border-bottom:1px solid #E7E6E6;padding-bottom:10px;}
 .articleContainer .article_content .meta a{text-decoration:none;}
 .articleContainer .article_content .meta p{margin:0;}

@@ -23,7 +23,11 @@ h2.pageTitle{margin:0;font-size:26px;color:#FFF;font-weight:bold;}
 
 
 /*==========================================================================  HEADER start  ==========================================================================*/
-header{width:100%;background-color:#FFF;top:0;position:fixed;z-index:3;}
+header{width:100%;background-color:#FFF;top:0;position:fixed;z-index:3;
+ -moz-box-shadow:0 1px 3px rgba(0, 0, 0, 0.12);
+ -webkit-box-shadow:0 1px 3px rgba(0, 0, 0, 0.12);
+ box-shadow:0 1px 3px rgba(0, 0, 0, 0.12);
+}
 header .siteWidth{overflow:hidden;padding-bottom:14px;position:relative;}
 header a.logo{display:block;margin:10px 0px 0px 0px;width:107px;height:43px;background:url("../../images/theme/images.png") no-repeat -264px 0;float:left;}
 header a.logo h1{text-indent:-9999px;margin:0;}
@@ -53,10 +57,12 @@ footer ul.social li.fb a{width:8px;height:17px;margin-left:20px;}
 footer ul.social li.fb a:hover{background-position:-0px -57px;}
 footer ul.social li.twitter a{width:12px;height:14px;background-position:-11px -38px;margin:2px 25px 0px 28px;}
 footer ul.social li.twitter a:hover{background-position:-11px -57px;}
-footer ul.social li.linkedin a{width:13px;height:12px;background-position:-26px -38px;margin:2px 0 0 0;}
+footer ul.social li.linkedin a{width:13px;height:12px;background-position:-26px -38px;margin:2px 20px 0 0;}
 footer ul.social li.linkedin a:hover{background-position:-26px -57px;}
 footer ul.social li.rss a{width:12px;height:11px;background-position:-43px -38px;margin:3px 0 0 28px;}
 footer ul.social li.rss a:hover{background-position:-43px -57px;}
+footer ul.social li.google a{width:20px;height:17px;background-position:-57px -38px;margin:4px 0 0 0;}
+footer ul.social li.google a:hover{background-position:-57px -57px;}
 /*==========================================================================  FOOTER end  ==========================================================================*/
 
 /*==========================================================================  USER CONTROL start  ==========================================================================*/
@@ -80,7 +86,7 @@ footer ul.social li.rss a:hover{background-position:-43px -57px;}
 .userControl .right a.forgot{margin-left:10px;color:#fbfbfb;font-size:12px;}
 .userControl .right a.forgot:hover{text-decoration:none;}
 
-.userControl .ribbon{width:68px;height:58px;position:absolute;background:url("../../images/theme/images.png") no-repeat -84px 0;bottom:-44px;right:0;color:#FFF;text-decoration:none;font-size:11px;line-height:11px;top:auto;}
+.userControl .ribbon{width:68px;height:58px;position:absolute;background:url("../../images/theme/images.png") no-repeat -84px 0;bottom:-44px;right:0px;color:#FFF;text-decoration:none;font-size:11px;line-height:11px;top:auto;}
 .userControl .ribbon span{position:absolute;top:14px;left:2px;width:60px;text-align:center;}
 /*==========================================================================  USER CONTROL end  ==========================================================================*/
 
@@ -224,7 +230,10 @@ span.icon.print span{}
 .textBlock a:hover{text-decoration:none;}
 .textBlock em , .textBlock i{font-style:italic;}
 .textBlock strong , .textBlock b{font-weight:bold;}
+.textBlock strong em,.textBlock strong i,.textBlock em strong, .textBlock i strong,  .textBlock b em,.textBlock b i,.textBlock em b, .textBlock i b{font-style:italic;font-weight:bold;}
 .textBlock ul{list-style:inside;}
 .textBlock ol{list-style:decimal;}
 .textBlock li{}
+.textBlock table.withBorder{border:1px solid #747474;}
+.textBlock table.withBorder tr td{padding:5px;border:1px solid #747474;}
 /*==========================================================================  BLOCK OF TEXT STYLING end  ==========================================================================*/
