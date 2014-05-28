@@ -5,7 +5,7 @@
   <title><%= h(page_title) %></title>
   <link rel="shortcut icon" href="/favicon.ico"/>
 
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag "/stylesheets/theme/bootstrap.css", "/stylesheets/theme/style.css", :media => 'all' %>
   <%= stylesheet_link_tag "/stylesheets/theme/reset.css", "/stylesheets/theme/normalize.min.css", "/stylesheets/theme/generic.css", "/stylesheets/theme/blog.css", :media => 'all' %>
   <%= page_header %>
@@ -17,7 +17,8 @@
 </head>
 <body>
 <div class="page-wrap blog">
-  <header>
+
+  <header class="main-header">
     <div class="siteWidth careacross-maincontent">
       <a class="logo" href="https://www.careacross.com"><h1>Care Across</h1></a>
       <ul class="mainMenu">
@@ -30,7 +31,6 @@
       <a id="ribbon" class="ribbon" href="https://www.careacross.com/#signin"><span>Sign In</span></a>
     </div>
   </header>
-
   <div class="content">
     <div class="headerImageContainer">
       <%= image_tag("innerPages_TopImage.png", alt: "Care Across banner", :class => "headerImage") %>
@@ -45,27 +45,28 @@
   </div>
   <div class="clearfix"></div>
 </div>
-<footer>
+
+<footer class="main-footer">
   <div class="siteWidth">
-    <ul class="footerMenu">
-      <li><a href="https://www.careacross.com/about-us">About Us</a></li>
-      <li><a href="https://www.careacross.com/privacy-policy">Privacy Policy</a></li>
-      <li><a href="https://www.careacross.com/terms-of-service">Terms Of Service</a></li>
-      <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
-      <li><a href="http://blog.careacross.com">Blog</a></li>
+    <div class="footerMenu">
+    
+      <span><a href="https://www.careacross.com/about-us">About Us</a></span>
+      <span><a href="https://www.careacross.com/privacy-policy">Privacy Policy</a></span>
+      <span><a href="https://www.careacross.com/terms-of-service">Terms Of Service</a></span>
+      <span><a href="http://blog.careacross.com">Blog</a></span>
       <!--<li><a href="#">Privacy</a></li>-->
       <!--<li><a href="#">Contact us</a></li>-->
-    </ul>
-    <!--footerMenu -->
-    <ul class="social">
-      <li class="footerLabel">Find us on</li>
-      <li class="fb"><a href="https://www.facebook.com/CareAcross"></a></li>
-      <li class="twitter"><a href="https://www.twitter.com/CareAcross"></a></li>
-      <li class="linkedin"><a href="https://www.linkedin.com/company/care-across"></a></li>
-      <li class="google"><a href="https://plus.google.com/103178555391213524490" rel="publisher"></a></li>
-      <li class="rss"><a href="http://blog.careacross.com/articles.rss"></a></li>
-    </ul>
-    <!--social -->
+      <!--footerMenu -->
+      <span class="social">
+        <span class="footerLabel">Find us on</span>
+        <span class="fb"><a href="https://www.facebook.com/CareAcross"></a></span>
+        <span class="twitter"><a href="https://www.twitter.com/CareAcross"></a></span>
+        <span class="linkedin"><a href="https://www.linkedin.com/company/care-across"></a></span>
+        <span class="google"><a href="https://plus.google.com/103178555391213524490" rel="publisher"></a></span>
+        <!-- <span class="rss"><a href="http://blog.careacross.com/articles.rss"></a></span> -->
+      </span>
+      <!--social -->
+    </div>
   </div>
 </footer>
 <!-- AddThis Pro BEGIN -->
