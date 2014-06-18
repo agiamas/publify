@@ -20,6 +20,10 @@ module Publify
     
     config.plugins = [ :all ]
 
+    # config.assets.enabled = true
+
+    # config.assets.precompile += %w(/stylesheets/theme/application.css.scss /stylesheets/theme/generic.scss)
+    
     config.autoload_paths += %W(
       app/apis
     ).map {|dir| "#{::Rails.root.to_s}/#{dir}"}.select { |dir| File.directory?(dir) }
