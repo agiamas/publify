@@ -46,6 +46,7 @@
     </div>
 
     <div class="category-menu">
+      <ul><li><a href="/">Blog Home</a></li></ul>
       <%= render_sidebars %>
     </div>
   
@@ -73,7 +74,11 @@
     </div>
     <div class="siteWidth mainContainer">
       <div class="mainNav"><%= render_sidebars %></div>
-      <div class="mainContent"><%= yield %></div>
+      <div class="mainContent"><%= yield %>
+
+        <%= render :template => 'layouts/addthis' %>
+
+      </div>
     </div>
   </div>
   <div class="clearfix"></div>

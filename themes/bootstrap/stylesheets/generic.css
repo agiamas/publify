@@ -210,6 +210,7 @@ header.mobile-header {
     display: block;
   }
 }
+
 header.mobile-header a.logo {
   display: block;
   width: 62px;
@@ -234,11 +235,11 @@ header.mobile-header .show-menu {
   position: relative;
   cursor: pointer;
   float: right;
-  background: url("../../images/theme/icon-menu.svg") center center no-repeat;
+  background: url("../../images/theme/icon-menu.png") center center no-repeat;
   text-align: center;
   height: 22px;
   width: 21px;
-  background-size: 70%;
+  /*background-size: 70%;*/
 }
 header.mobile-header .show-menu:hover {
   text-decoration: none;
@@ -1090,11 +1091,6 @@ a.print span.icon {
     display: none;
   }
 
-  .mainContent {
-    width: 96%;
-    margin: 0 2%;
-  }
-
   .siteWidth {
     padding-left: 0;
     padding-right: 0;
@@ -1116,5 +1112,21 @@ a.print span.icon {
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;          
+  }
+}
+
+.mobile-addthis{
+  display: none;
+}
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+  .siteWidth{
+    width: 96%;
+    padding: 0 2%;
+  }
+  .mobile-addthis{
+    display: block;
+  }
+  .articleContainer + .mobile-addthis{
+    display: none;
   }
 }
