@@ -1063,6 +1063,11 @@ a.print span.icon {
 /*==========================================================================  BLOCK OF TEXT STYLING end  ==========================================================================*/
 
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+
+  .mainContent {
+    float: none;
+    width: auto;
+  }
   .jumptarget {
     height: 40px;
   }
