@@ -53,16 +53,21 @@ html {
 }
 
 .headerImageContainer {
-  position: relative;
-  width: 100%;
-  background-color: #559ddf;
+    background-color: #559ddf;
+    min-width: 980px;
+    position: relative;
+    width: 100%;
 }
-
-.headerImage {
-  display: block;
-  width: 980px;
-  height: 89px;
-  margin: 0 auto;
+.headerImageContainer .header-image-content {
+    background: url("/images/innerPages_TopImage.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);
+    height: 89px;
+    line-height: 89px;
+    margin: 0 auto;
+    padding: 55px 20px 0;
+    width: 940px;
+}
+.headerImageContainer .header-image-content h2 {
+    line-height: 89px;
 }
 
 .siteWidth.title {
@@ -307,9 +312,6 @@ header.mobile-header .category-menu li {
   padding: 5px 2%;
   border-bottom: 1px solid #666;
 }
-header.mobile-header .category-menu li:last-child {
-  border: none;
-}
 header.mobile-header .category-menu li a {
   display: block;
   font-weight: bold;
@@ -456,7 +458,7 @@ footer.main-footer div.footerMenu > span {
   display: inline-block;
   padding: 0;
   vertical-align: top;
-  margin: 0 50px;
+  margin: 0 45px;
 }
 footer.main-footer div.footerMenu > span:first-child {
   margin-left: 0;
@@ -1124,6 +1126,15 @@ a.print span.icon {
   display: none;
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+  .headerImageContainer{
+    min-width: 0;
+  }
+  .headerImageContainer .header-image-content{
+    padding-top: 40px;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;          
+  }
   .siteWidth{
     width: 96%;
     padding: 0 2%;

@@ -7,7 +7,7 @@
 
   <meta name="HandheldFriendly" content="true" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,greek' rel='stylesheet' type='text/css'>
 
   <%= stylesheet_link_tag "/stylesheets/theme/bootstrap.min.css", :media => "all" %>
@@ -53,7 +53,7 @@
       <%= render_sidebars %>
     </div>
   
-    <a class="logo" href="/" alt="Care Across Logo"><h1>Care Across</h1></a>
+    <a class="logo" href="https://www.careacross.com" alt="Care Across Logo"><h1>Care Across</h1></a>
 
     <div href="#" class="show-menu">
     </div>
@@ -64,17 +64,17 @@
       <li id="menu_news"><a href="http://www.careacross.com/newslist/">News</a></li>
       <li id="menu_tools"><a href="http://www.careacross.com/toolslist">Tools</a></li>
       <li><a id="signin" href="http://www.careacross.com/#signin"  class="js-header__signin" href="#"><span>Sign in</span></a></li>
+      <li><a id="join" href="http://www.careacross.com/#signin"  class="js-header__join" href="#"><span>Join</span></a></li>
     </ul>
   </header>
 
 
-  <div class="content">
     <div class="headerImageContainer">
-      <%= image_tag("innerPages_TopImage.png", alt: "Care Across banner", :class => "headerImage") %>
+      <div class="header-image-content">
+        <h2 class="pageTitle">News</h2>
+      </div>
     </div>
-    <div class="siteWidth title">
-      <h2 class="pageTitle">Blog</h2>
-    </div>
+  <div class="content">
     <div class="siteWidth mainContainer">
       <div class="mainNav"><%= render_sidebars %></div>
       <div class="mainContent"><%= yield %>
@@ -104,7 +104,7 @@
         <span class="twitter"><a href="https://www.twitter.com/CareAcross"></a></span>
         <span class="linkedin"><a href="https://www.linkedin.com/company/care-across"></a></span>
         <span class="google"><a href="https://plus.google.com/103178555391213524490" rel="publisher"></a></span>
-        <!-- <span class="rss"><a href="http://blog.careacross.com/articles.rss"></a></span> -->
+        <span class="rss"><a href="http://blog.careacross.com/articles.rss"></a></span>
       </span>
       <!--social -->
     </div>
