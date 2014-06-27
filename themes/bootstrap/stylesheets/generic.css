@@ -297,6 +297,8 @@ header.mobile-header .category-menu {
   border-right: 2px solid #666;
   left: 0;
   display: none;
+  max-height: 400px;
+  overflow: auto;
 }
 header.mobile-header .category-menu h3{
   display: none;
