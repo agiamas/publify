@@ -262,6 +262,9 @@ header.mobile-header .mainMenu {
   border-left: 2px solid #666;
   right: 0;
   display: none;
+  max-height: 300px;
+  overflow: auto;
+
 }
 header.mobile-header .mainMenu li {
   padding: 5px 2%;
@@ -297,7 +300,7 @@ header.mobile-header .category-menu {
   border-right: 2px solid #666;
   left: 0;
   display: none;
-  max-height: 400px;
+  max-height: 300px;
   overflow: auto;
 }
 header.mobile-header .category-menu h3{
