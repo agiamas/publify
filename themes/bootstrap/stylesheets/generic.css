@@ -38,7 +38,7 @@ html {
 
 .content {
   position: relative;
-  padding-top: 55px;
+  padding-top: 15px;
 }
 
 .mainNav {
@@ -70,10 +70,6 @@ html {
     line-height: 89px;
 }
 
-.siteWidth.title {
-  position: relative;
-  top: -60px;
-}
 
 h2.pageTitle {
   margin: 0;
@@ -83,8 +79,6 @@ h2.pageTitle {
 }
 
 .siteWidth.mainContainer {
-  position: relative;
-  top: -16px;
   overflow: hidden;
 }
 
@@ -463,7 +457,7 @@ footer.main-footer div.footerMenu > span {
   display: inline-block;
   padding: 0;
   vertical-align: top;
-  margin: 0 45px;
+  margin: 0 44px;
 }
 footer.main-footer div.footerMenu > span:first-child {
   margin-left: 0;
@@ -500,7 +494,7 @@ footer.main-footer span.social span {
 }
 footer.main-footer span.social span.footerLabel {
   text-decoration: none;
-  font-size: 15px;
+  font-size: 16px;
   color: #908a8a;
 }
 footer.main-footer span.social span a {
@@ -550,113 +544,6 @@ footer.main-footer span.social span.google a:hover {
 
 
 /*==========================================================================  FOOTER end  ==========================================================================*/
-/*==========================================================================  USER CONTROL start  ==========================================================================*/
-.userControl {
-  display: none;
-  z-index: 100;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: .96;
-  background-color: #07b7c3;
-}
-.userControl .siteWidth {
-  position: relative;
-  width: 662px;
-  padding: 36px 159px;
-  overflow: visible;
-}
-.userControl h2.title {
-  margin: 0;
-  font-size: 18px;
-  font-weight: bold;
-  color: #fbfbfb;
-}
-.userControl .desc {
-  margin: 10px 0 30px 0;
-  font-size: 13px;
-  color: #fbfbfb;
-}
-.userControl .left {
-  width: 295px;
-  margin-right: 35px;
-  padding-right: 35px;
-  border-right: 1px solid #6fd3db;
-}
-.userControl .left #interest_registered {
-  padding: 132px 0;
-  font-size: 13px;
-  font-style: normal;
-  color: #FBFBFB;
-}
-.userControl .left .button.style1 {
-  margin: 10px 0 20px 0;
-}
-.userControl .left .smallPrint {
-  font-size: 13px;
-  color: #fafafa;
-}
-.userControl .right {
-  width: 270px;
-  padding-left: 25px;
-}
-.userControl .right ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-.userControl .right .password {
-  margin: 8px 0;
-}
-.userControl .right li.remember {
-  margin: 0 0 8px 0;
-}
-.userControl .right li.remember input {
-  margin-right: 3px;
-}
-.userControl .right li.remember label {
-  font-size: 14px;
-  color: #fbfbfb;
-  cursor: pointer;
-}
-.userControl .right li.error {
-  padding-bottom: 11px;
-}
-.userControl .right li.error .message {
-  font-size: 16px;
-  font-weight: bold;
-  color: #FF0000;
-}
-.userControl .right a.forgot {
-  margin-left: 10px;
-  font-size: 12px;
-  color: #fbfbfb;
-}
-.userControl .right a.forgot:hover {
-  text-decoration: none;
-}
-.userControl .ribbon {
-  position: absolute;
-  top: auto;
-  right: 0;
-  bottom: -44px;
-  width: 68px;
-  height: 58px;
-  text-decoration: none;
-  font-size: 11px;
-  line-height: 11px;
-  color: #FFF;
-  background: url("../../images/theme/images.png") no-repeat -84px 0;
-}
-.userControl .ribbon span {
-  position: absolute;
-  top: 14px;
-  left: 2px;
-  width: 60px;
-  text-align: center;
-}
-
-/*==========================================================================  USER CONTROL end  ==========================================================================*/
 /*==========================================================================  INPUTS start  ==========================================================================*/
 input.button.style1, a.button.style1 {
   display: inline-block;
@@ -704,7 +591,7 @@ input.text.style1 {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  font-size: 14px;
+  font-size: 16px;
   color: #747474;
   background-color: #fbfbfb;
   -webkit-background-clip: padding-box;
@@ -718,7 +605,7 @@ input.text.style2 {
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
-  font-size: 15px;
+  font-size: 16px;
   color: #747474;
   background-color: #fbfbfb;
   -webkit-background-clip: padding-box;
