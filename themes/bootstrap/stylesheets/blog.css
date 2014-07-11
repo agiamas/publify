@@ -28,7 +28,7 @@ img.careacross-center {
 .blog .mainContainer .mainNav h3.sidebar-title,
 .blog .mainContainer .mainNav h3 {
     margin: 0 0 7px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     line-height: 17px;
     color: #333333;
@@ -81,7 +81,7 @@ img.careacross-center {
 /*============================================================== ARTICLES start ==============================================================*/
 
 .articleContainer {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .articleContainer .article_title {
@@ -97,11 +97,6 @@ img.careacross-center {
 .articleContainer .article_title a {
     text-decoration: none;
     color: #333;
-}
-
-.articleContainer .article_content {
-    font-size: 13px;
-    color: #747474;
 }
 
 .articleContainer .article_content a {
@@ -181,11 +176,6 @@ img.careacross-center {
     list-style: decimal;
 }
 
-.articleContainer .article_content li {
-    font-size: 13px;
-    color: #747474;
-}
-
 .articleContainer .article_content table {
     border: 1px solid #747474;
 }
@@ -200,8 +190,19 @@ img.careacross-center {
 }
 
 .articleContainer .article_content .meta {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #E7E6E6;
+    border-top: 1px solid #E7E6E6;
+    color: #333;
+    font-size: 11px;
+}
+
+.articleContainer .article_content .meta .sep{
+    background-color: #bebebe;
+    display: inline-block;
+    height: 12px;
+    margin: 0 3px 0 5px;
+    position: relative;
+    top: 3px;
+    width: 1px;
 }
 
 .articleContainer .article_content .meta a {
@@ -212,9 +213,16 @@ img.careacross-center {
     margin: 0;
 }
 
+.articleContainer .article_content .meta .date{
+    color: #747474;
+    display: inline;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 300;
+}
+
 .articleContainer .article_comments,
 .articleContainer.read .article_comments {
-    margin-top: 5px;
     font-size: 100%;
 }
 
@@ -232,11 +240,6 @@ img.careacross-center {
 #commentList li h4 {
     margin: 0;
     font-size: 16px;
-}
-
-#commentList li p {
-    margin: 0;
-    font-size: 13px;
 }
 
 #commentList li hr {
