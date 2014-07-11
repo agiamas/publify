@@ -295,6 +295,11 @@
 }
 .entry-content{
     font-size: 13px;
+    line-height: 1.3em
+}
+
+.entry-content .extended, .entry-content .meta{
+    line-height: 24px;
 }
 
 .entry-content p{
