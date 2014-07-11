@@ -261,13 +261,13 @@ header.mobile-header .mainMenu {
 
 }
 header.mobile-header .mainMenu li {
-  padding: 5px 2%;
   border-bottom: 1px solid #666;
 }
 header.mobile-header .mainMenu li:last-child {
   border: none;
 }
 header.mobile-header .mainMenu li a {
+  padding: 5px 2%;
   display: block;
   font-weight: bold;
 }
