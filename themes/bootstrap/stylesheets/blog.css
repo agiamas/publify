@@ -84,11 +84,16 @@ img.careacross-center {
     margin-bottom: 20px;
 }
 
+.articleContainer .article_content{
+    font-size: 13px;
+    color: #747474;
+}
+
 .articleContainer .article_title {
     margin: 0;
     padding: 0;
     border-bottom: none;
-    font-size: 26px;
+    font-size: 24.5px;
     font-weight: bold;
     line-height: 32px;
     color: #333333;
@@ -189,13 +194,13 @@ img.careacross-center {
     margin: 5px 0;
 }
 
-.articleContainer .article_content .meta {
+.articleContainer .meta {
     border-top: 1px solid #E7E6E6;
     color: #333;
     font-size: 11px;
 }
 
-.articleContainer .article_content .meta .sep{
+.articleContainer .meta .sep{
     background-color: #bebebe;
     display: inline-block;
     height: 12px;
@@ -213,7 +218,7 @@ img.careacross-center {
     margin: 0;
 }
 
-.articleContainer .article_content .meta .date{
+.articleContainer .meta .date{
     color: #747474;
     display: inline;
     font-size: 11px;

@@ -1,5 +1,5 @@
 <div class='meta'>
-    <span class='p-author h-card'><%= _("By") %> <%= article.user.nickname %></span>
+    <span class='p-author h-card'><%= _("By") %> <b><%= article.user.nickname %></b></span>
     <%= category_links(article, _("under")) unless article.categories.empty? %>.
     <%= tag_links(article) unless article.tags.empty? %>
     <span class="sep"></span><span class="date">(<%= display_date(article.published_at) %>)</span>

@@ -293,10 +293,12 @@
 #news .mainContent .paginationContainer {
     margin: 60px 0 130px 0;
 }
+.entry-content{
+    font-size: 13px;
+}
 
 .entry-content p{
     margin: 0;
-    font-size: 13px;
 }
 
 /*==========================================================================  NEWS end  ==========================================================================*/
