@@ -187,7 +187,7 @@ module ApplicationHelper
   end
 
   def display_date(date)
-    date.strftime(this_blog.date_format)
+    date.strftime("%-d %b %Y")
   end
 
   def display_time(time)
