@@ -300,7 +300,7 @@ header.mobile-header .category-menu {
 header.mobile-header .category-menu h3{
   display: none;
 }
-header.mobile-header .category-menu ul#archives, header.mobile-header .category-menu div.static-body{
+header.mobile-header .category-menu ul#archives, header.mobile-header .category-menu div.static-body, header.mobile-header .category-menu ul#archives + * + *{
   display: none;
 }
 header.mobile-header .category-menu ul {
