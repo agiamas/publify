@@ -23,7 +23,7 @@
 var ua = navigator.userAgent,
         event = (ua.match(/iPad/i)) ? "touchstart" : "click";
 
-$(document).on(event, function (ev) {
+$(document).on("click", function (ev) {
     $(".mobile-header .category-menu").slideUp(100);
     $(".mobile-header .mainMenu").slideUp(100);
     
