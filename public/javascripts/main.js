@@ -30,12 +30,12 @@ $(document).on(event, function (ev) {
 });
 
 $(document).ready(function(){
-  $(".mobile-header .show-categories").click(function(e){
+  $(".mobile-header .show-categories").on(event, function (ev) {
     $(".mobile-header .category-menu").slideToggle(100);
-    e.stopPropagation();
+    ev.stopPropagation();
   });
-  $(".mobile-header .show-menu").click(function(e){
+  $(".mobile-header .show-menu").on(event, function (ev) {
     $(".mobile-header .mainMenu").slideToggle(100);
-    e.stopPropagation();
+    ev.stopPropagation();
   });
 })
