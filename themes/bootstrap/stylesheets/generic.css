@@ -1,8 +1,14 @@
 
 /*==========================================================================  HELPERS start  ==========================================================================*/
+* {
+  margin: 0;
+}
+
 html, body {
   height: 100%;
 }
+
+
 
 html {
   position: relative;
@@ -24,15 +30,16 @@ html {
 }
 
 .page-wrap {
-  margin-bottom: -64px;
   min-height: 100%;
+  margin-bottom: -62px;
 }
 .page-wrap:after {
   content: "";
   display: block;
+  height: 62px;
 }
 
-.site-footer, .page-wrap:after {
+.site-footer {
   height: 64px;
 }
 
@@ -208,6 +215,22 @@ header.mobile-header {
   header.mobile-header {
     display: block;
   }
+
+
+  .page-wrap {
+    min-height: 100%;
+    margin-bottom: -209px;
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+    height: 209px;
+  }
+
+  .site-footer {
+    height: 209px;
+  }
+
 }
 
 header.mobile-header a.logo {
@@ -964,11 +987,6 @@ a.print span.icon {
   }
   .jumptarget {
     height: 40px;
-  }
-
-  .page-wrap {
-    min-width: 0;
-    width: 100%;
   }
 
   .mainNav {
