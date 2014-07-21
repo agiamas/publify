@@ -1056,3 +1056,7 @@ a.print span.icon {
     display: none;
   }
 }
+
+body > iframe{
+  display: none !important;
+}
