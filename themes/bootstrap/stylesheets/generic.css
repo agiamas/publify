@@ -216,7 +216,6 @@ header.mobile-header {
     display: block;
   }
 
-
   .page-wrap {
     min-height: 100%;
     margin-bottom: -209px;
@@ -1031,7 +1030,11 @@ a.print span.icon {
     padding-right: 2%;          
   }
 }
-
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) and (orientation: landscape){
+  .mobile-header .category-menu .mainNav {
+    max-height: 200px;
+  }
+}
 .mobile-addthis{
   display: none;
 }
