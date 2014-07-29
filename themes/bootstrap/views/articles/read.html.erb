@@ -19,8 +19,10 @@
       <div class="article_comments">
 		<h6 class="feedback" id="commentaires">
 			<%= render 'articles/comment_counter', article: @article %>
-			<a href="#commentform" ref="nofollow"> &raquo;</a>
-		</h6>
+			<% if @article.published_comments.size > 0 then %>
+              <a href="#commentform" ref="nofollow"> &raquo;</a>
+            <% end %>
+		</h3>
 		  <%= render "articles/comment_list" %>
 	  </div>
   <% end -%>
