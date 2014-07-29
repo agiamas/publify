@@ -294,8 +294,8 @@
     margin: 60px 0 130px 0;
 }
 .entry-content{
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 1em;
+    line-height: 1.3em;
 }
 
 .entry-content .extended, .entry-content .meta{

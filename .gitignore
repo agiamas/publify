@@ -31,3 +31,4 @@ bin/
 !/themes/bootstrap
 !/themes/typographic
 .idea/*
+*.orig
