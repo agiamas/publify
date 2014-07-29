@@ -1,6 +1,6 @@
 <%= form_tag @article.comment_url do %>
 <div id='commentform'>
-	<h3><%= _("Comment")%> <em><%=@article.title%></em></h3>
+	<h6><%= _("Comment on")%> <em><%=@article.title%></em></h6>
 	<div class='control-group'>
 		<%= text_field "comment", "author", :class => 'span4', :placeholder => _("Your name") %>  	
 	</div>
