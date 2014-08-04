@@ -64,6 +64,7 @@ img.careacross-center {
 .blog .mainContainer .mainNav li a {
     display: block;
     padding: 7px 0 7px 8px;
+    line-height: 1.2em;
     text-decoration: none;
     color: #747474;
 }
