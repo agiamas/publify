@@ -17,7 +17,7 @@
 
   <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
       <div class="article_comments">
-		<h3 class="feedback" id="commentaires">
+		<h6 class="feedback" id="commentaires">
 			<%= render 'articles/comment_counter', article: @article %>
 			<% if @article.published_comments.size > 0 then %>
               <a href="#commentform" ref="nofollow"> &raquo;</a>
