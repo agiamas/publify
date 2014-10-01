@@ -9,7 +9,7 @@
     <%= render 'articles/protected_article_content', { :article => article } %>
   </div>
   <% if controller.controller_name == "articles" and controller.action_name == "redirect" %>
-  <div class="meta">
+      <div class="meta">
     <p class="infos"><small>
       <%= _("This entry was posted on %s", content_tag(:abbr, display_date_and_time(@article.published_at).html_safe, {:class => 'published', :title => @article.published_at.xmlschema})) %>
       <%= _("and %s", category_links(@article)) unless @article.categories.empty? %>.
