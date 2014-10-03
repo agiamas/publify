@@ -393,21 +393,15 @@ li.nobg {
 
 .landing-fb{
     margin: 0 auto;
-    width: 378px;
+    /*width: 378px;*/
 }
 .landing-f{
     float: left;
     margin-left: 0;
     position: relative;
-    width: 230px;
+    /*width: 230px;*/
 }
-.landing-button{
-    float: left;
-    margin-left: 10px;
-    margin-right: 0;
-    margin-top: 2px;
-    position: relative;
-}
+
 
 
 
@@ -467,7 +461,7 @@ a[href^="mailto:"]:hover
     color:#fff;
 }
 
-#error_explanation h2,.field_with_errors {
+#error_explanation h2 {
     background-color:#E5FFE5 !important;
     color:#000 !important;
 }
