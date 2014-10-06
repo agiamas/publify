@@ -33,22 +33,6 @@
     <%= @article.html(:extended) %>
   </div>
 
-  <div class="register-hook">
-    <div class="text">
-      <label for="bottom_landing_page_email">Join our Community to ask our oncologists.</label></div>
-    <div class="register-form ">
-      <div class="formContainer landing-fb">
-        <form accept-charset="UTF-8" action="http://pure-lowlands-8668-staging.herokuapp.com/landing_pages" class="new_landing_page" id="bottom_new_landing_page" method="post">
-          <div class="field_with_errors"></div>
-          <div>
-            <input class="text style2" id="bottom_landing_page_email" maxlength="254" name="landing_page[email]" placeholder="Please enter your email" type="email"></div>
-          <input type="hidden" name="landing_page[source]" value="blog">
-          <div class="landing-button">
-            <input class="landing-b button style2" type="submit" value="Join" /></div>
-        </form>
-      </div>
-    </div>
-  </div>
 
   <%= render 'articles/meta', article: @article %>
 
