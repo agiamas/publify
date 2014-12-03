@@ -518,7 +518,7 @@
 
 /* Register Interest Submit Form */
 .register-hook {
-  padding: 15px 15px 5px 15px;
+  padding: 15px;
   background: #3F84B4;
   color: #ffffff;
   overflow: hidden;
@@ -544,12 +544,14 @@
 .register-hook .register-form input.text.style2 {
   padding: 7px 10px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  height: 19px;
+  line-height: 19px;
   width: 60%;
 }
 .register-hook .register-form input.button.style2, .register-hook .register-form .button.style2 {
   padding: 6px 15px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   line-height: 1.3em;
 }
 .register-hook.side .text, .register-hook.side .register-form {
