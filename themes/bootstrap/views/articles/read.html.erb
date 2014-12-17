@@ -3,11 +3,26 @@
 <% content_for :head do %>
     <meta name="csrf-param" content="authenticity_token"/>
     <meta name="csrf-token" content="ErI0bMA1E0JAXwvyVMistPsWc4fg2dG5tDPOgeur358="/>
+    <%= stylesheet_link_tag "/stylesheets/theme/jquery.zglossary.css", :media => "all" %>
 <% end %>
 
+<% if ENV['env']=='DEVELOPMENT' or ENV['env']=='STAGING' then
+     base_url="https://pure-lowlands-8668-staging.herokuapp.com"
+   else
+     base_url="https://www.careacross.com"
+   end %>
+
 <% content_for :footer do %>
-    <%= javascript_include_tag :defaults %>
+  <script src="/javascripts/jquery.zglossary.min.js"></script>
+
     <script type="text/javascript">
+
+      $(document).ready(function () {
+          $('.articleContainer').glossary('<%= base_url %>/glossary/terms.json', {
+            ignorecase: true
+          });
+      });
+
       $("#bottom_new_landing_page").submit(function(e){
         e.preventDefault();
         var url = $(this).attr("action");
