@@ -15,29 +15,29 @@
 <% content_for :footer do %>
   <script src="/javascripts/jquery.zglossary.min.js"></script>
 
-    <script type="text/javascript">
+  <script type="text/javascript">
 
-      $(document).ready(function () {
-          $('.articleContainer').glossary('<%= base_url %>/glossary/terms.json', {
-            ignorecase: true
-          });
-      });
-
-      $("#bottom_new_landing_page").submit(function(e){
-        e.preventDefault();
-        var url = $(this).attr("action");
-        var data = $(this).serialize()
-        $.ajax({
-          type: "POST",
-          url: url,
-          data: data,
-          success: function(data){
-            console.log(data);
-            ga('send','event', 'conversions', 'interest', 'landing_page_interest');
-          },
+    $(document).ready(function () {
+        $('.articleContainer').glossary('<%= base_url %>/glossary/terms.json', {
+          ignorecase: true
         });
+    });
+
+    $("#bottom_new_landing_page").submit(function(e){
+      e.preventDefault();
+      var url = $(this).attr("action");
+      var data = $(this).serialize()
+      $.ajax({
+        type: "POST",
+        url: url,
+        data: data,
+        success: function(data){
+          console.log(data);
+          ga('send','event', 'conversions', 'interest', 'landing_page_interest');
+        },
       });
-    </script>
+    });
+  </script>
 <% end %>
 <div class="article articleContainer read" id="article-<%= @article.id %>">
   <div class="careacross-article careacross-single">
