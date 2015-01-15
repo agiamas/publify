@@ -270,22 +270,6 @@ h2.page-header.categoryTitle {
 
 /*============================================================== ARTICLES end ==============================================================*/
 
-﻿@charset "UTF-8";
-/**
- * Zazar zGlossary Plugin
- *
- * Stylesheet: jquery.zglossary.css
- *
- * Version: 1.0.1
- * (C) 2011-2012 Zazar Ltd
- * 
- * Description: Stylesheet for the jquery.zglossary.js plugin
- *
- * History:
- * 1.0.0 - Initial release
- *
- **/
-
 a.glossaryTerm, a.glossaryTerm:visited, a.glossaryTerm:link { border-bottom: 1px dashed #999; text-decoration: none; }
 a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
 
@@ -320,7 +304,7 @@ a.glossaryTerm:hover { border-bottom: none; text-decoration: none; }
     top: -5px;
     width: 20px;
     height: 20px;
-    background: url('ui_close_sm.gif') no-repeat;
+    background: url('../../images/theme/ui_close_sm.gif') no-repeat;
     cursor: pointer;
 }
-#glossaryTip > #glossaryClose { background: url('ui_close_sm.png') no-repeat; }
+#glossaryTip > #glossaryClose { background: url('../../images/theme/ui_close_sm.png') no-repeat; }

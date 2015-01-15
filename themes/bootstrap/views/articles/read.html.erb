@@ -3,14 +3,16 @@
 <% content_for :head do %>
     <meta name="csrf-param" content="authenticity_token"/>
     <meta name="csrf-token" content="ErI0bMA1E0JAXwvyVMistPsWc4fg2dG5tDPOgeur358="/>
-    <%= stylesheet_link_tag "/stylesheets/theme/jquery.zglossary.css", :media => "all" %>
 <% end %>
 
 <% if ENV['env']=='DEVELOPMENT' or ENV['env']=='STAGING' then
      base_url="https://pure-lowlands-8668-staging.herokuapp.com"
    else
      base_url="https://www.careacross.com"
-   end %>
+   end 
+     base_url="https://pure-lowlands-8668-staging.herokuapp.com"
+
+   %>
 
 <% content_for :footer do %>
   <script src="/javascripts/jquery.zglossary.min.js"></script>
