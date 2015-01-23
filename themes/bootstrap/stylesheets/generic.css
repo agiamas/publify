@@ -31,16 +31,16 @@ html {
 
 .page-wrap {
   min-height: 100%;
-  margin-bottom: -62px;
+  margin-bottom: -60px;
 }
 .page-wrap:after {
   content: "";
   display: block;
-  height: 62px;
+  height: 60px;
 }
 
 .site-footer {
-  height: 64px;
+  height: 60px;
 }
 
 .content {
@@ -70,7 +70,7 @@ html {
     height: 89px;
     line-height: 89px;
     margin: 0 auto;
-    padding: 55px 20px 0;
+    padding: 65px 20px 0;
     width: 940px;
 }
 .headerImageContainer .header-image-content h2 {
@@ -93,14 +93,15 @@ h2.pageTitle {
 /*==========================================================================  HEADER start  ==========================================================================*/
 
 header.main-header {
-  z-index: 3;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #FFF;
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    height: 65px;
+    line-height: 65px;
+    z-index: 8020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FFF;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
   header.main-header {
@@ -112,28 +113,39 @@ header.main-header .siteWidth {
   overflow: visible;
 }
 header.main-header a.logo {
-  display: block;
   float: left;
-  width: 107px;
-  height: 43px;
-  margin: 5px 0 0 0;
-  background: url("../../images/theme/images.png") no-repeat -264px 0;
+  width: 82px;
+  height: 33px;
+  margin: 16px 0;
 }
 header.main-header a.logo h1 {
   margin: 0;
   text-indent: -9999px;
 }
+header.main-header a.logo img {
+  vertical-align: top;
+}
+header.main-header ul.mainMenu{
+  float: right;
+  margin: 0 81px 0 0;
+  padding: 0;
+  list-style: none;
+  height: 65px;
+  font-size: 1em;
+}
 header.main-header ul.mainMenu li {
   float: left;
   margin-right: 48px;
-  height: 55px;
-  line-height: 47px;
+  height: 65px;
+  position: relative;
 }
 header.main-header ul.mainMenu li a {
   display: block;
-  border-top: 4px solid #FFF;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
   text-decoration: none;
   color: #333333;
+  line-height: 57px;
 }
 header.main-header ul.mainMenu li a:hover {
   border-top: 4px solid #07b7c3;
@@ -148,19 +160,21 @@ header.main-header .ribbon {
   position: absolute;
   top: 0;
   right: 20px;
-  width: 68px;
-  height: 80px;
+  width: 77px;
+  height: 86px;
   text-decoration: none;
   line-height: 11px;
   color: #FFF;
+  font-weight: bold;
+  font-size: 1.1em;
   background: url("../../images/theme/careacross-ribbon_long.png") no-repeat 0 -18px;
 }
 header.main-header .ribbon span {
   position: absolute;
   top: 24px;
-  left: 4px;
-  width: 60px;
+  width: 77px;
   text-align: center;
+  text-shadow: 1px 1px 3px #666;
 }
 header.main-header .ribbon:hover {
   background-position: 0 -9px;
@@ -177,14 +191,6 @@ header.main-header .logOut {
   text-decoration: none;
   font-weight: bold;
   color: #333333;
-}
-header.main-header ul.mainMenu {
-  float: right;
-  margin: 0 81px 0 0;
-  padding: 0;
-  overflow: hidden;
-  list-style: none;
-  height: 55px;
 }
 header.mobile-header {
   display: none;
@@ -333,13 +339,17 @@ header.mobile-header .category-menu li a:hover {
 /*   FOOTER start */
 footer.main-footer {
   background-color: #3d3d3d;
-  font-size: .9em;
+  position: relative;
+  z-index: 8021;
+  text-align: left;
+  font-weight: 600;
+  font-size: .8em;
+  color: #908a8a;
 }
 footer.main-footer .siteWidth {
   overflow: hidden;
   background-color: #3d3d3d;
   padding: 20px;
-  text-align: center;
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
   footer.main-footer .siteWidth {
@@ -350,13 +360,13 @@ footer.main-footer .siteWidth {
 footer.main-footer .siteWidth div {
   margin: 0;
   overflow: hidden;
-  list-style: none;
 }
 footer.main-footer div.footerMenu > span {
+  float: left;
   display: inline-block;
   padding: 0;
   vertical-align: top;
-  margin: 0 20px;
+  margin: 0 10px;
 }
 footer.main-footer div.footerMenu > span:first-child {
   margin-left: 0;
@@ -364,6 +374,8 @@ footer.main-footer div.footerMenu > span:first-child {
 }
 footer.main-footer div.footerMenu > span.social {
   margin-right: 0;
+  float: right;
+  height: 20px;
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
   footer.main-footer div.footerMenu > span {
@@ -383,7 +395,6 @@ footer.main-footer div.footerMenu span a:hover {
   color: #d2d2d2;
 }
 footer.main-footer span.social {
-  display: inline-block;
   overflow: hidden;
 }
 footer.main-footer span.social span {
@@ -392,7 +403,6 @@ footer.main-footer span.social span {
 }
 footer.main-footer span.social span.footerLabel {
   text-decoration: none;
-  color: #908a8a;
 }
 footer.main-footer span.social span a {
   display: inline-block;
