@@ -914,6 +914,10 @@ a.print span.icon {
     padding-left: 2%;
     padding-right: 2%;          
   }
+  .articleContainer .article_content img{
+      max-width: 100% !important;
+      height: auto !important;
+  }
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) and (orientation: landscape){
   .mobile-header .category-menu .mainNav {
