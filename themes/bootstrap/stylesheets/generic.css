@@ -314,6 +314,9 @@ header.mobile-header .category-menu {
 header.mobile-header .category-menu h3{
   display: none;
 }
+header.mobile-header .category-menu > p{
+  display: none;
+}
 header.mobile-header .category-menu ul#archives, header.mobile-header .category-menu div.static-body, header.mobile-header .category-menu ul#archives + * + *{
   display: none;
 }
@@ -913,6 +916,10 @@ a.print span.icon {
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;          
+  }
+  .articleContainer .article_content img{
+      max-width: 100% !important;
+      height: auto !important;
   }
 }
 @media only screen and (max-width: 900px), only screen and (max-device-width: 900px) and (orientation: landscape){
