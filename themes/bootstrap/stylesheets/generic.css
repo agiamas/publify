@@ -348,6 +348,7 @@ footer.main-footer {
   font-weight: 600;
   font-size: .8em;
   color: #908a8a;
+  margin-top: 20px;
 }
 footer.main-footer .siteWidth {
   overflow: hidden;
@@ -385,6 +386,7 @@ footer.main-footer div.footerMenu > span.social {
     display: block;
     text-align: center;
     margin: 8px 0;
+    float: none;
   }
   footer.main-footer div.footerMenu > span:first-child, footer.main-footer div.footerMenu > span.social {
     float: none;
