@@ -39,11 +39,14 @@
     });
   </script>
 <% end %>
+
 <div class="article articleContainer read" id="article-<%= @article.id %>">
   <div class="careacross-article careacross-single">
     <h2 class='page-header article_title'><%= link_to_permalink(@article, @article.title) %></h2>
-		<%= @article.html(:body) %>
-    <%= @article.html(:extended) %>
+
+      <%= @article.html(:body) %>
+      <%= @article.html(:extended) %>
+
   </div>
 
 
