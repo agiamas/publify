@@ -1,5 +1,7 @@
 <%#= render_head_opengraph(@article, @article.permalink_url(nil, false) )  %>
 
+<%# This is the main article view %>
+
 <% content_for :head do %>
     <meta name="csrf-param" content="authenticity_token"/>
     <meta name="csrf-token" content="ErI0bMA1E0JAXwvyVMistPsWc4fg2dG5tDPOgeur358="/>
@@ -43,9 +45,10 @@
 <div class="article articleContainer read" id="article-<%= @article.id %>">
   <div class="careacross-article careacross-single">
     <h2 class='page-header article_title'><%= link_to_permalink(@article, @article.title) %></h2>
-
-      <%= @article.html(:body) %>
-      <%= @article.html(:extended) %>
+      <div class="article_content">
+        <%= @article.html(:body) %>
+        <%= @article.html(:extended) %>
+      </div>
 
   </div>
 
