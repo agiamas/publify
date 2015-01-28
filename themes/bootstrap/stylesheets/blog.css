@@ -34,22 +34,24 @@ img.careacross-center {
 
 .blog .mainContainer .mainNav {
     float: left;
-    margin: 0 50px 0 0;
+    margin: 0px 50px 0 0;
 }
 
 .blog .mainContainer .mainNav h3.sidebar-title,
 .blog .mainContainer .mainNav h3 {
-    margin: 10px 0 5px 0;
+    margin: 25px 0 15px 0;
     color: #333333;
+    font-size: 1em;
 }
 .blog .mainContainer .mainNav h3:first-child{
     margin-top: 0;
 }
 
 .blog .mainContainer .mainNav ul {
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 10px;
     padding: 0;
     list-style: none;
+    font-size: .9em;
 }
 
 .blog .mainContainer .mainNav li {
@@ -93,20 +95,22 @@ img.careacross-center {
 /*============================================================== ARTICLES start ==============================================================*/
 
 .articleContainer {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .articleContainer .article_content{
-    /*font-size: 13px;*/
     color: #747474;
+    font-size: .8em;
 }
 
 .articleContainer .article_title {
     margin: 0;
+    margin-bottom: 5px;
     padding: 0;
     border-bottom: none;
     font-weight: bold;
     color: #333333;
+    font-size: 1em;
 }
 
 .articleContainer .article_title a {
@@ -172,6 +176,10 @@ img.careacross-center {
     margin: 5px 0;
 }
 
+.articleContainer .article_content h3{
+    font-size: 1em;
+}
+
 .articleContainer .meta {
     border-top: 1px solid #E7E6E6;
     color: #333;
@@ -211,7 +219,7 @@ img.careacross-center {
 
 .articleContainer .article_comments,
 .articleContainer.read .article_comments {
-    font-size: 100%;
+    font-size: .8em;
 }
 
 .articleContainer.read .article_comments h3 {
@@ -219,6 +227,7 @@ img.careacross-center {
 }
 
 #commentList {
+    padding: 0;
 }
 
 #commentList li {
@@ -233,6 +242,9 @@ img.careacross-center {
     margin: 5px 0 0 0;
 }
 
+#commentform h6{
+    font-size: .9em;
+}
 #commentform .form-actions{
     border: 1px solid #e3e3e3;
     -webkit-border-radius: 4px;
@@ -256,9 +268,6 @@ img.careacross-center {
     font-style: italic;
 }
 
-.list .articleContainer .article_title {
-    margin-bottom: 5px;
-}
 
 h2.page-header.categoryTitle {
     margin-top: 0;

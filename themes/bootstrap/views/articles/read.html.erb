@@ -42,9 +42,7 @@
 <div class="article articleContainer read" id="article-<%= @article.id %>">
   <div class="careacross-article careacross-single">
     <h2 class='page-header article_title'><%= link_to_permalink(@article, @article.title) %></h2>
-    <div class="article_content">
 		<%= @article.html(:body) %>
-	</div>
     <%= @article.html(:extended) %>
   </div>
 
