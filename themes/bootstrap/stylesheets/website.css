@@ -518,25 +518,25 @@
 
 /* Register Interest Submit Form */
 .register-hook {
-  padding: 15px;
+  font-size: 13px;
+  padding: 10px 15px;
   background: #3F84B4;
   color: #ffffff;
   overflow: hidden;
-  border-radius: 5px;
   margin-bottom: 20px;
 }
 .register-hook #interest_registered {
   font-size: .9em;
   padding: 0;
-  padding-bottom: 10px;
+  float: right;
 }
 .register-hook .text {
   float: left;
-  width: 50%;
+  width: 45%;
 }
 .register-hook .register-form {
   float: right;
-  width: 44%;
+  width: 55%;
 }
 .register-hook .register-form form {
   margin: 0;
@@ -545,14 +545,25 @@
   padding: 7px 10px;
   margin-right: 10px;
   margin-bottom: 0px;
-  height: 19px;
-  line-height: 19px;
-  width: 60%;
+  border: 1px solid #255273;
+  background: #f4f4f4;
+  transition: all 200ms linear;
+  width: 70%;
+  border-radius: 0;
+}
+.register-hook .register-form input.text.style2:active, .register-hook .register-form input.text.style2:focus {
+  border-color: #ffffff;
+  background: #fff;
 }
 .register-hook .register-form input.button.style2, .register-hook .register-form .button.style2 {
-  padding: 6px 15px;
+  padding: 0px 15px;
   margin-bottom: 0px;
-  line-height: 1.3em;
+  line-height: 36px;
+  background: #fff;
+  box-shadow: none;
+  border-radius: 5px;
+  color: #3c84b9;
+  text-shadow: 1px 1px 3px #aaa;
 }
 .register-hook.side .text, .register-hook.side .register-form {
   float: none;
@@ -565,4 +576,3 @@
   margin-bottom: 5px;
   width: 163px;
 }
-

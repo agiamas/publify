@@ -366,4 +366,5 @@ class Article < Content
     end
     urls_to_ping
   end
+
 end
