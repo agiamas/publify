@@ -4,6 +4,24 @@
       <div class='e-content entry-content article'>
   		<%= render 'articles/protected_article_content', { :article => article } %>
   		<%= render 'articles/meta', article: article %>
+      <div class="register-hook">
+        <div class="text">
+          <label for="bottom_landing_page_email">Want to learn from others who fight cancer? Join our community.</label>
+        </div>
+        <div class="register-form ">
+          <div class="formContainer landing-fb">
+            <form accept-charset="UTF-8" action="https://pure-lowlands-8668-staging.herokuapp.com/landing_pages" class="new_landing_page" data-remote="true" id="bottom_new_landing_page" method="post">
+              <div class="field_with_errors"></div>
+              <div class="landing-f">
+                <input type="email" id="bottom_landing_page_email" name="landing_page[email]" placeholder="Please enter your email" class="text style2" maxlength="254">
+              </div>
+              <div class="landing-button">
+                <input type="submit" value="Join" class="landing-b button style2">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
