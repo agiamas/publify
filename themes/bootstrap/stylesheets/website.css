@@ -530,6 +530,12 @@
   padding: 0;
   float: right;
 }
+.register-hook label{
+    display: inline;
+    margin: 0;
+    font-size: inherit;
+    line-height: inherit;
+}
 .register-hook .text {
   float: left;
   width: 45%;
@@ -550,6 +556,9 @@
   transition: all 200ms linear;
   width: 70%;
   border-radius: 0;
+  font-size: inherit;
+  line-height: 20px;
+  height: 20px;
 }
 .register-hook .register-form input.text.style2:active, .register-hook .register-form input.text.style2:focus {
   border-color: #ffffff;
@@ -564,6 +573,7 @@
   border-radius: 5px;
   color: #3c84b9;
   text-shadow: 1px 1px 3px #aaa;
+  font-family: inherit;
 }
 .register-hook.side .text, .register-hook.side .register-form {
   float: none;
